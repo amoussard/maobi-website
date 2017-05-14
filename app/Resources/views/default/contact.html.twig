@@ -1,0 +1,112 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="heading-style style-one" style="background-image: url(http://placehold.it/1920x400);">
+        <!-- Heading Inner -->
+        <div class="heading-inner">
+            <div class="container">
+                <!-- Page Title -->
+                <div class="page-title">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Page With Image Background -->
+    <div class="contact padding-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+                    <p>Please send your name, email address, and some information about yourself, your company, and your project. Kick Point’s office is located in Sydney, Melbourne and Brisben, but we work with clients all over the world. Have you read what it’s like to work with us yet? </p>
+
+                    <p>We respond to all inquiries, unless you’re trying to sell us a place in your shady blog network!</p>
+                </div>
+            </div>
+
+            <div class="spacer20"></div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-7 col-md-7 col-xs-12">
+                    <div class="form-box contact-from-box">
+                        <!-- COntact Form -->
+                        <form>
+                            <div class="input-field">
+                                <label class="input-lable">Name</label>
+                                <input type="text" name="name" value="" placeholder="James Smith">
+                            </div>
+                            <div class="input-field">
+                                <label class="input-lable">Email</label>
+                                <input type="email" name="email" value="" placeholder="mail@domain.com">
+                            </div>
+                            <div class="input-field">
+                                <label class="input-lable">Subject</label>
+                                <input type="text" name="Subject" value="" placeholder="Write your subject">
+                            </div>
+                            <div class="input-field">
+                                <label class="input-lable">Message</label>
+                                <textarea placeholder="Write Your Message" name="message" rows="4"></textarea>
+                            </div>
+                            <div class="input-field">
+                                <label class="input-lable one">1+1 =</label>
+                                <input type="text" placeholder="" class="small-form" value="" name="text">
+                            </div>
+                            <button class="button-medium button-gradient btn-block" name="demo" value="demo">Send</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-5 col-md-4 col-xs-12 pull-right">
+                    <div class="contact-sidebar">
+                        <p>25 Savages Road,<br>SYDNEY, 4109.</p>
+                    </div>
+                    <!-- Address -->
+                    <div class="address">
+                        <p><span>p</span> 780.628.2186<br>
+                            <span>E</span> hello@kickpoint.ca</p>
+                    </div>
+                    <p><b>HOURS:</b> Mon-Fri: 10:00 AM to 7:00 PM</p>
+                    <!-- Social Icon -->
+                    <div class="style-four dark-grey squareborder contact-social-icon">
+                        <a href="#" class="social-icon si-rounded  si-border-dark si-delicious" data-toggle="tooltip" data-placement="top" title="Delicious">
+                            <i class="fa fa-behance" aria-hidden="true"></i>
+                            <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-rounded  si-border-dark si-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-rounded  si-border-dark si-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-rounded  si-border-dark si-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-rounded  si-border-dark si-gplus" data-toggle="tooltip" data-placement="top" title="GooglePlus">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.648121337861!2d72.55909551431398!3d23.036688721582685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f3664d9eaf%3A0x718b6b1e8598cac9!2sRevivalPixel!5e0!3m2!1sen!2sin!4v1470722053248"></iframe>
+    </div>
+{% endblock %}
