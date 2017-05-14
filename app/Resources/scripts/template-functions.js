@@ -388,14 +388,14 @@ var RP = {};
         if ($header.exists()) {
             var headerOffset = $header.offset().top;
             if ($window.scrollTop() > headerOffset) {
-                
+
                     if (!$header.hasClass("header-no-sticky")) {
                         $header.addClass('header-sticky');
                     }
                     if ($header.hasClass('header-navigation-light')) {
                         logo.find('img').attr('src', logoImg);
                     }
-                
+
             } else {
                 $header.removeClass('header-sticky');
             }
@@ -449,7 +449,7 @@ var RP = {};
 
     RP.topBar = function () {
         if ($topbar.exists()) {
-            $("#topbar .topbar-dropdown .topbar-form").each(function (index, element) {                
+            $("#topbar .topbar-dropdown .topbar-form").each(function (index, element) {
                 if ($window.width() - ($(element).width() + $(element).offset().left) < 0) {
                     $(element).addClass('dropdown-invert');
                 }
@@ -736,7 +736,7 @@ var RP = {};
             });
         }
     }; */
- 
+
     /* ---------------------------------------------------------------------------
      * PRI CHARTS
      * --------------------------------------------------------------------------- */
@@ -1139,7 +1139,7 @@ var RP = {};
         RP.goToTop()
     });
 
-    // Project Carousel 
+    // Project Carousel
     jQuery(document).ready(function($)
         {
         var ocClients = $("#project-carousal");
@@ -1163,7 +1163,7 @@ var RP = {};
     });
 
     // Video Js
-    $(".play-2").yu2fvl();    
+    $(".play-2").yu2fvl();
 
     // Projects Slider in laptop
     jQuery(document).ready(function($)
@@ -1187,7 +1187,7 @@ var RP = {};
         }
         });
     });
-	
+
 	// Accordian Style 2  plus minus Icon
 	jQuery(function ($) {
 		var $active = $('#accordion-2 .panel-collapse.in').prev().addClass('active');
@@ -1237,9 +1237,9 @@ var RP = {};
 			$(e.target).prev().removeClass('active').find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
 		});
 	});
-	
-	
-	// Blog masnory 
+
+
+	// Blog masnory
 	if($('.isotope').length) {
 		$(function() {
 			  // init Isotope
@@ -1250,187 +1250,187 @@ var RP = {};
 			  });
 		});
 	}
-		
-					
-	// Carousel Style One
-    jQuery(document).ready(function($) {
-        var ocClientsFull = $("#rp-slider-style-one");
-        ocClientsFull.owlCarousel({
-            items: 1,
-            itemsDesktop : [970,1],
-            margin: 0,                                
-            padding: 0,
-            loop: true,
-            nav: true,
-            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-            autoplay: true,
-            autoplayHoverPause: false,
-            dots: false,
-            navRewind: false,
-            responsive:{
-                0:{ items:1 },
-                480:{ items:1 },
-                768:{ items:1 },
-                992:{ items:1 },
-                1200:{ items:1 },
-                1400:{ items:1 }
-            }
-        });
-
-    });
 
 
-    // Carousel Style Two
-    jQuery(document).ready(function($) {
-        var ocClientsFull = $("#rp-slider-style-two");
-        ocClientsFull.owlCarousel({
-            items: 1,
-            itemsDesktop : [970,1],
-            margin: 0,                                
-            padding: 0,
-            loop: true,
-            nav: true,
-            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-            autoplay: true,
-            autoplayHoverPause: false,
-            dots: false,
-            navRewind: false,
-            responsive:{
-                0:{ items:1 },
-                480:{ items:1 },
-                768:{ items:1 },
-                992:{ items:1 },
-                1200:{ items:1 },
-                1400:{ items:1 }
-            }
-        });
-    });
+    // // Carousel Style One
+    // jQuery(document).ready(function($) {
+    //     var ocClientsFull = $("#rp-slider-style-one");
+    //     ocClientsFull.owlCarousel({
+    //         items: 1,
+    //         itemsDesktop : [970,1],
+    //         margin: 0,
+    //         padding: 0,
+    //         loop: true,
+    //         nav: true,
+    //         navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    //         autoplay: true,
+    //         autoplayHoverPause: false,
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:{
+    //             0:{ items:1 },
+    //             480:{ items:1 },
+    //             768:{ items:1 },
+    //             992:{ items:1 },
+    //             1200:{ items:1 },
+    //             1400:{ items:1 }
+    //         }
+    //     });
+    //
+    // });
+    //
+    //
+    // // Carousel Style Two
+    // jQuery(document).ready(function($) {
+    //     var ocClientsFull = $("#rp-slider-style-two");
+    //     ocClientsFull.owlCarousel({
+    //         items: 1,
+    //         itemsDesktop : [970,1],
+    //         margin: 0,
+    //         padding: 0,
+    //         loop: true,
+    //         nav: true,
+    //         navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    //         autoplay: true,
+    //         autoplayHoverPause: false,
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:{
+    //             0:{ items:1 },
+    //             480:{ items:1 },
+    //             768:{ items:1 },
+    //             992:{ items:1 },
+    //             1200:{ items:1 },
+    //             1400:{ items:1 }
+    //         }
+    //     });
+    // });
+    //
+    //
+    // // Carousel Style three
+    // jQuery(document).ready(function($) {
+    //     var ocClientsFull = $("#rp-slider-style-three");
+    //     ocClientsFull.owlCarousel({
+    //         items: 3,
+    //         itemsDesktop : 3,
+    //         margin: 30,
+    //         padding: 0,
+    //         navText: [''],
+    //         autoplay: true,
+    //         autoplayHoverPause: false,
+    //         dots: false,
+    //
+    //         responsive:{
+    //             0:{ items:0 },
+    //             280:{ items:1 },
+    //             480:{ items:1 },
+    //             768:{ items:3 },
+    //             992:{ items:3 },
+    //             1200:{ items:3 },
+    //             1400:{ items:3 }
+    //         }
+    //     });
+    // });
+    //
+    //
+    // // carousel script style 1
+    // jQuery(document).ready(function($)
+    //     {
+    //     var ocClients = $("#rp-clients-style-one");
+    //     ocClients.owlCarousel(
+    //     {
+    //         items: 6,
+    //         margin: 30,
+    //         nav: false,
+    //             navText: [''],
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:
+    //         {
+    //             0:{ items:2 },
+    //             480:{ items:3 },
+    //             768:{ items:4 },
+    //             1000:{ items:6 },
+    //             1200:{ items:6 }
+    //         }
+    //     });
+    // });
+    //
+    //
+    // // carousel script style 2
+    // jQuery(document).ready(function($)
+    //     {
+    //     var ocClients = $("#rp-clients-style-two");
+    //     ocClients.owlCarousel(
+    //     {
+    //         items:6,
+    //         margin: 30,
+    //         nav: false,
+    //              navText: [''],
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:
+    //         {
+    //             0:{ items:2 },
+    //             480:{ items:3 },
+    //             768:{ items:4 },
+    //             1000:{ items:6 },
+    //             1200:{ items:6}
+    //     }
+    //     });
+    // });
+    //
+    //
+    // // Full width carousel
+    // jQuery(document).ready(function($) {
+    //     var ocClientsFull = $("#rp-clients-style-three");
+    //     ocClientsFull.owlCarousel({
+    //         items: 5,
+    //         margin: 59,
+    //         loop: true,
+    //         nav: true,
+    //         navText: [''],
+    //         autoplay: true,
+    //         autoplayHoverPause: false,
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:{
+    //             0:{ items:2 },
+    //             480:{ items:3 },
+    //             768:{ items:4 },
+    //             992:{ items:5 },
+    //             1200:{ items:5 },
+    //             1400:{ items:5 }
+    //         }
+    //     });
+    // });
+    //
+    //
+    // // Full width carousel with bg
+    // jQuery(document).ready(function($)
+    //     {
+    //     var ocClients = $("#rp-clients-style-four");
+    //     ocClients.owlCarousel(
+    //     {
+    //         items: 4,
+    //         margin:0,
+    //         nav: false,
+    //              navText: [''],
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:
+    //         {
+    //             0:{ items:2 },
+    //             480:{ items:3 },
+    //             768:{ items:4 },
+    //             1000:{ items:5 },
+    //             1200:{ items:4 }
+    //         }
+    //     });
+    // });
+    //
 
-
-    // Carousel Style three
-    jQuery(document).ready(function($) {
-        var ocClientsFull = $("#rp-slider-style-three");
-        ocClientsFull.owlCarousel({
-            items: 3,
-            itemsDesktop : 3,
-            margin: 30,                                
-            padding: 0,
-            navText: [''],
-            autoplay: true,
-            autoplayHoverPause: false,
-            dots: false,
-            
-            responsive:{
-                0:{ items:0 },
-                280:{ items:1 },
-                480:{ items:1 },
-                768:{ items:3 },
-                992:{ items:3 },
-                1200:{ items:3 },
-                1400:{ items:3 }
-            }
-        });
-    });	
-		
-		
-	// carousel script style 1 
-    jQuery(document).ready(function($)
-        {
-        var ocClients = $("#rp-clients-style-one");
-        ocClients.owlCarousel(
-        {
-            items: 6,
-            margin: 30,
-            nav: false,
-                navText: [''],
-            dots: false,
-            navRewind: false,
-            responsive:
-            {
-                0:{ items:2 },
-                480:{ items:3 },
-                768:{ items:4 },
-                1000:{ items:6 },
-                1200:{ items:6 }
-            }
-        });
-    });
-    
-
-    // carousel script style 2    
-    jQuery(document).ready(function($)
-        {
-        var ocClients = $("#rp-clients-style-two");
-        ocClients.owlCarousel(
-        {
-            items:6,
-            margin: 30,
-            nav: false,
-                 navText: [''],
-            dots: false,
-            navRewind: false,
-            responsive:
-            {
-                0:{ items:2 },
-                480:{ items:3 },
-                768:{ items:4 },
-                1000:{ items:6 },
-                1200:{ items:6}
-        }
-        });
-    });
-    
-    
-    // Full width carousel
-    jQuery(document).ready(function($) {
-        var ocClientsFull = $("#rp-clients-style-three");
-        ocClientsFull.owlCarousel({
-            items: 5,
-            margin: 59,
-            loop: true,
-            nav: true,
-            navText: [''],
-            autoplay: true,
-            autoplayHoverPause: false,
-            dots: false,
-            navRewind: false,
-            responsive:{
-                0:{ items:2 },
-                480:{ items:3 },
-                768:{ items:4 },
-                992:{ items:5 },
-                1200:{ items:5 },
-                1400:{ items:5 }
-            }
-        });
-    });
-    
-        
-    // Full width carousel with bg
-    jQuery(document).ready(function($)
-        {
-        var ocClients = $("#rp-clients-style-four");
-        ocClients.owlCarousel(
-        {
-            items: 4,
-            margin:0,
-            nav: false,
-                 navText: [''],
-            dots: false,
-            navRewind: false,
-            responsive:
-            {
-                0:{ items:2 },
-                480:{ items:3 },
-                768:{ items:4 },
-                1000:{ items:5 },
-                1200:{ items:4 }
-            }
-        });
-    });
-		
-		
-	// Portfolio masnory Filter 
+	// Portfolio masnory Filter
         $(window).load(function(){
              $('.grid').isotope({
              // options
@@ -1439,7 +1439,7 @@ var RP = {};
             });
         });
 
-        
+
         if($('.grid').length) {
             $(function() {
                   // init Isotope
@@ -1464,60 +1464,60 @@ var RP = {};
                   });
             });
         }
-        
-
-    // Testimonial        
-     jQuery(document).ready(function($)
-    {
-        var ocClients = $("#testimonial-7");
-        ocClients.owlCarousel({
-            items: 3,
-            margin:30,
-            nav: false,
-                 navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-            dots: true,
-            navRewind: true,
-            responsive:
-            {
-                0:{ items:1 },
-                480:{ items:1 },
-                768:{ items:2 },
-                1000:{ items:3 },
-                1200:{ items:3 }
-            }
-        });
-    });
 
 
-    // Client Carousel 
-    jQuery(document).ready(function($)
-        {
-        var ocClients = $("#rp-clients-style-two");
-        ocClients.owlCarousel(
-        {
-            items:6,
-            margin: 30,
-            nav: false,
-                 navText: [''],
-            dots: false,
-            navRewind: false,
-            responsive:
-            {
-                0:{ items:2 },
-                480:{ items:3 },
-                768:{ items:4 },
-                1000:{ items:6 },
-                1200:{ items:6}
-        }
-        });
-    });
-	 
-	
-		
+    // // Testimonial
+    //  jQuery(document).ready(function($)
+    // {
+    //     var ocClients = $("#testimonial-7");
+    //     ocClients.owlCarousel({
+    //         items: 3,
+    //         margin:30,
+    //         nav: false,
+    //              navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    //         dots: true,
+    //         navRewind: true,
+    //         responsive:
+    //         {
+    //             0:{ items:1 },
+    //             480:{ items:1 },
+    //             768:{ items:2 },
+    //             1000:{ items:3 },
+    //             1200:{ items:3 }
+    //         }
+    //     });
+    // });
+    //
+
+    // // Client Carousel
+    // jQuery(document).ready(function($)
+    //     {
+    //     var ocClients = $("#rp-clients-style-two");
+    //     ocClients.owlCarousel(
+    //     {
+    //         items:6,
+    //         margin: 30,
+    //         nav: false,
+    //              navText: [''],
+    //         dots: false,
+    //         navRewind: false,
+    //         responsive:
+    //         {
+    //             0:{ items:2 },
+    //             480:{ items:3 },
+    //             768:{ items:4 },
+    //             1000:{ items:6 },
+    //             1200:{ items:6}
+    //     }
+    //     });
+    // });
+
+
+
 
 	(function(){
         'use strict';
-        $(window).on('load', function(){  	
+        $(window).on('load', function(){
 	        // PIECHART STYLE 1 INIT
             if( $('.piechart.piechart-style1').length ) {
                 $('.piechart.piechart-style1').each(function(){
@@ -1541,10 +1541,10 @@ var RP = {};
                     })
                 });
             };
-        }); 
-    })();            
-    
-    
+        });
+    })();
+
+
     // PIE CHART STYLE 2
     function pieChart2(){
         var chartContainer = $('.piechart-style2').find('.chart-container');
@@ -1612,9 +1612,9 @@ var RP = {};
 
     };
     pieChart3();
-		
-	
-	// Blog Post Slider JS 
+
+
+	// Blog Post Slider JS
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         centeredSlides: true,
@@ -1625,14 +1625,14 @@ var RP = {};
         loopedSlides: 4,
         grabCursor: true
     });
-		
-		
+
+
 	// calender JS
 	$('#demo').dcalendarpicker();
 	$('#calendar-demo').dcalendar();
-		
-		
-	// Portfolio masnory Filter 
+
+
+	// Portfolio masnory Filter
  //    $(window).load(function(){
  //         $('.isotope').isotope({
  //         // options
@@ -1640,7 +1640,7 @@ var RP = {};
  //         layoutMode: 'masonry'
  //        });
  //    });
-	
+
 	// if($('.isotope').length) {
 	// 	$(function() {
 	// 		  // init Isotope
@@ -1652,8 +1652,8 @@ var RP = {};
 	// 	});
 	// }
 
-	
-	
+
+
 	// Photo Swipe Js
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
 	var parseThumbnailElements = function(el) {
@@ -1666,7 +1666,7 @@ var RP = {};
             item;
         for(var i = 0; i < numNodes; i++) {
             figureEl = thumbElements[i]; // <figure> element
-            // include only element nodes 
+            // include only element nodes
             if(figureEl.nodeType !== 1) {
                 continue;
             }
@@ -1680,12 +1680,12 @@ var RP = {};
             };
             if(figureEl.children.length > 1) {
                 // <figcaption> content
-                item.title = figureEl.children[1].innerHTML; 
+                item.title = figureEl.children[1].innerHTML;
             }
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
                 item.msrc = linkEl.children[0].getAttribute('src');
-            } 
+            }
             item.el = figureEl; // save link to element for getThumbBoundsFn
             items.push(item);
         }
@@ -1715,8 +1715,8 @@ var RP = {};
             nodeIndex = 0,
             index;
         for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) { 
-                continue; 
+            if(childNodes[i].nodeType !== 1) {
+                continue;
             }
             if(childNodes[i] === clickedListItem) {
                 index = nodeIndex;
@@ -1742,10 +1742,10 @@ var RP = {};
             if(!vars[i]) {
                 continue;
             }
-            var pair = vars[i].split('=');  
+            var pair = vars[i].split('=');
             if(pair.length < 2) {
                 continue;
-            }           
+            }
             params[pair[0]] = pair[1];
         }
         if(params.gid) {
@@ -1767,14 +1767,14 @@ var RP = {};
                 // See Options -> getThumbBoundsFn section of documentation for more info
                 var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
                     pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect(); 
+                    rect = thumbnail.getBoundingClientRect();
                 return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
             }
         };
         // PhotoSwipe opened from URL
         if(fromURL) {
             if(options.galleryPIDs) {
-                // parse real index when custom PIDs are used 
+                // parse real index when custom PIDs are used
                 // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
                 for(var j = 0; j < items.length; j++) {
                     if(items[j].pid == index) {
@@ -1815,20 +1815,20 @@ var RP = {};
 	// execute above function
 	initPhotoSwipeFromDOM('.my-gallery');
 
-		
+
 
 	//popover
     $(document).ready(function(){
-		$('[data-toggle="popover"]').popover();   
+		$('[data-toggle="popover"]').popover();
 	});
-		
+
 
 	//tool tip
 	$(document).ready(function(){
-       $('[data-toggle="tooltip"]').tooltip();   
+       $('[data-toggle="tooltip"]').tooltip();
    });
-	   
-	   
+
+
 	// pricing table Js ( style 8 )
 	jQuery(document).ready(function($){
 	//hide the subtle gradient layer (.cd-pricing-list > li::after) when pricing table has been scrolled to the end (mobile version only)
@@ -1836,7 +1836,7 @@ var RP = {};
 	$(window).on('resize', function(){
 		window.requestAnimationFrame(function(){checkScrolling($('.rp-pricing-body'))});
 	});
-	$('.rp-pricing-body').on('scroll', function(){ 
+	$('.rp-pricing-body').on('scroll', function(){
 		var selected = $(this);
 		window.requestAnimationFrame(function(){checkScrolling(selected)});
 	});
@@ -1880,14 +1880,14 @@ var RP = {};
 				//give higher z-index to the pricing table items selected by the radio input
 				show_selected_items(table_elements[selected_filter]);
 
-				//rotate each cd-pricing-wrapper 
+				//rotate each cd-pricing-wrapper
 				//at the end of the animation hide the not-selected pricing tables and rotate back the .cd-pricing-wrapper
-				
+
 				if( !Modernizr.cssanimations ) {
 					hide_not_selected_items(table_elements, selected_filter);
 					pricing_table_wrapper.removeClass('is-switched');
 				} else {
-					pricing_table_wrapper.addClass('is-switched').eq(0).one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {		
+					pricing_table_wrapper.addClass('is-switched').eq(0).one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {
 						hide_not_selected_items(table_elements, selected_filter);
 						pricing_table_wrapper.removeClass('is-switched');
 						//change rotation direction if .cd-pricing-list has the .cd-bounce-invert class
@@ -1903,7 +1903,7 @@ var RP = {};
 
 	function hide_not_selected_items(table_containers, filter) {
 		$.each(table_containers, function(key, value){
-	  		if ( key != filter ) {	
+	  		if ( key != filter ) {
 				$(this).removeClass('is-visible is-selected').addClass('is-hidden');
 
 			} else {
@@ -1912,15 +1912,15 @@ var RP = {};
 		});
 	}
 	});
-		
-		
+
+
 	// https://github.com/mattboldt/typed.js
 	!function(t){"use strict";var s=function(s,e){this.el=t(s),this.options=t.extend({},t.fn.typed.defaults,e),this.isInput=this.el.is("input"),this.attr=this.options.attr,this.showCursor=this.isInput?!1:this.options.showCursor,this.elContent=this.attr?this.el.attr(this.attr):this.el.text(),this.contentType=this.options.contentType,this.typeSpeed=this.options.typeSpeed,this.startDelay=this.options.startDelay,this.backSpeed=this.options.backSpeed,this.backDelay=this.options.backDelay,this.stringsElement=this.options.stringsElement,this.strings=this.options.strings,this.strPos=0,this.arrayPos=0,this.stopNum=0,this.loop=this.options.loop,this.loopCount=this.options.loopCount,this.curLoop=0,this.stop=!1,this.cursorChar=this.options.cursorChar,this.shuffle=this.options.shuffle,this.sequence=[],this.build()};s.prototype={constructor:s,init:function(){var t=this;t.timeout=setTimeout(function(){for(var s=0;s<t.strings.length;++s)t.sequence[s]=s;t.shuffle&&(t.sequence=t.shuffleArray(t.sequence)),t.typewrite(t.strings[t.sequence[t.arrayPos]],t.strPos)},t.startDelay)},build:function(){var s=this;if(this.showCursor===!0&&(this.cursor=t('<span class="typed-cursor">'+this.cursorChar+"</span>"),this.el.after(this.cursor)),this.stringsElement){s.strings=[],this.stringsElement.hide();var e=this.stringsElement.find("p");t.each(e,function(e,i){s.strings.push(t(i).html())})}this.init()},typewrite:function(t,s){if(this.stop!==!0){var e=Math.round(70*Math.random())+this.typeSpeed,i=this;i.timeout=setTimeout(function(){var e=0,r=t.substr(s);if("^"===r.charAt(0)){var o=1;/^\^\d+/.test(r)&&(r=/\d+/.exec(r)[0],o+=r.length,e=parseInt(r)),t=t.substring(0,s)+t.substring(s+o)}if("html"===i.contentType){var n=t.substr(s).charAt(0);if("<"===n||"&"===n){var a="",h="";for(h="<"===n?">":";";t.substr(s).charAt(0)!==h;)a+=t.substr(s).charAt(0),s++;s++,a+=h}}i.timeout=setTimeout(function(){if(s===t.length){if(i.options.onStringTyped(i.arrayPos),i.arrayPos===i.strings.length-1&&(i.options.callback(),i.curLoop++,i.loop===!1||i.curLoop===i.loopCount))return;i.timeout=setTimeout(function(){i.backspace(t,s)},i.backDelay)}else{0===s&&i.options.preStringTyped(i.arrayPos);var e=t.substr(0,s+1);i.attr?i.el.attr(i.attr,e):i.isInput?i.el.val(e):"html"===i.contentType?i.el.html(e):i.el.text(e),s++,i.typewrite(t,s)}},e)},e)}},backspace:function(t,s){if(this.stop!==!0){var e=Math.round(70*Math.random())+this.backSpeed,i=this;i.timeout=setTimeout(function(){if("html"===i.contentType&&">"===t.substr(s).charAt(0)){for(var e="";"<"!==t.substr(s).charAt(0);)e-=t.substr(s).charAt(0),s--;s--,e+="<"}var r=t.substr(0,s);i.attr?i.el.attr(i.attr,r):i.isInput?i.el.val(r):"html"===i.contentType?i.el.html(r):i.el.text(r),s>i.stopNum?(s--,i.backspace(t,s)):s<=i.stopNum&&(i.arrayPos++,i.arrayPos===i.strings.length?(i.arrayPos=0,i.shuffle&&(i.sequence=i.shuffleArray(i.sequence)),i.init()):i.typewrite(i.strings[i.sequence[i.arrayPos]],s))},e)}},shuffleArray:function(t){var s,e,i=t.length;if(i)for(;--i;)e=Math.floor(Math.random()*(i+1)),s=t[e],t[e]=t[i],t[i]=s;return t},reset:function(){var t=this;clearInterval(t.timeout);var s=this.el.attr("id");this.el.after('<span id="'+s+'"/>'),this.el.remove(),"undefined"!=typeof this.cursor&&this.cursor.remove(),t.options.resetCallback()}},t.fn.typed=function(e){return this.each(function(){var i=t(this),r=i.data("typed"),o="object"==typeof e&&e;r||i.data("typed",r=new s(this,o)),"string"==typeof e&&r[e]()})},t.fn.typed.defaults={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],stringsElement:null,typeSpeed:0,startDelay:0,backSpeed:0,shuffle:!1,backDelay:500,loop:!1,loopCount:!1,showCursor:!0,cursorChar:"|",attr:null,contentType:"html",callback:function(){},preStringTyped:function(){},onStringTyped:function(){},resetCallback:function(){}}}(window.jQuery);
 
 	$(function(){
 	  $('.text').typed({
 		strings: [
-		  "Oops! It looks like you're lost. <br />" + 
+		  "Oops! It looks like you're lost. <br />" +
 		  "Sorry about that. <br />" +
 		  "Let me try and help. <br />" +
 		  "Go back <a href='index.html'>home</a> and start over."
@@ -1970,14 +1970,14 @@ var RP = {};
 		  lFollowY = (10 * lMouseY) / 100;
 		});
 		animate();
-		
+
 		// Banner Full Height JS
         // $(window).on("load resize",function(){
         //     $winHeight = $(this).height();
         //     $(".banner.full").css("height",$winHeight );
         // });
-	   
-        // Screenshot Slider JS 
+
+        // Screenshot Slider JS
         var swiper = new Swiper('.screenshot-container', {
             pagination: '.swiper-pagination',
             slidesPerView: 4,
@@ -1987,51 +1987,51 @@ var RP = {};
             breakpoints: {
             1150: {
                 slidesPerView: 5,
-                
+
             },
             1023: {
                 slidesPerView: 4,
-                
+
             },
             767: {
                 slidesPerView: 3,
-                
+
             },
             480: {
                 slidesPerView: 1,
                 spaceBetween: 30
-                
+
             },
             350: {
                 slidesPerView: 1,
                 spaceBetween: 30
-                
+
             },
             420: {
                 slidesPerView: 1,
                 spaceBetween: 30
-                
+
             },
             639: {
                 slidesPerView: 2,
-                
+
             }
         }
         });
-		
+
 		 // Case study Full Height JS
         // $(window).on("load resize",function(){
         //     $winHeight = $(this).height();
         //     $(".case-study-slider").css("height",$winHeight - "115" );
         // });
-    
+
         // Case Study Style Two main Slider
         jQuery(document).ready(function($) {
             var ocClientsFull = $("#case-study");
             ocClientsFull.owlCarousel({
                 items: 1,
                 itemsDesktop : [970,1],
-                margin: 0,                                
+                margin: 0,
                 padding: 0,
                 loop: true,
                 nav: true,
@@ -2050,7 +2050,7 @@ var RP = {};
                 }
             });
         });
-		
+
 		 // Sidebar Navigation
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
@@ -2063,7 +2063,7 @@ var RP = {};
             });
         });
 
-        // Preloader js 
+        // Preloader js
         if ( $('.preloader-container').length ) {
             $('body').jpreLoader({
                 splashID: "#preloader-container",
@@ -2071,7 +2071,7 @@ var RP = {};
             });
         };
 
-       
+
 		//Project Slider
         jQuery(document).ready(function($) {
             var ocClientsFull = $("#rp-slider-style-one");
@@ -2102,8 +2102,8 @@ var RP = {};
             });
 
         });
-		
-		// Testimonial Style 1 Carousal 
+
+		// Testimonial Style 1 Carousal
         jQuery(document).ready(function($)
         {
             var ocClients = $("#rp-testimonial");
@@ -2124,8 +2124,8 @@ var RP = {};
                 }
         	});
         });
-    	
-    	// Testimonial Style 2 Carousal 
+
+    	// Testimonial Style 2 Carousal
         jQuery(document).ready(function($)
         {
             var ocClients = $("#rp-testimonial1");
@@ -2146,8 +2146,8 @@ var RP = {};
                 }
         	});
         });
-    	
-    	// Testimonial Style 3 Carousal 
+
+    	// Testimonial Style 3 Carousal
         $('.rp-testimonial-center').slick({
 		  centerMode: true,
 		  dots: true,
@@ -2176,16 +2176,16 @@ var RP = {};
 		    }
 		  ]
 		});
-	  	
 
-	  	// Testimonial Style 5 
+
+	  	// Testimonial Style 5
 		var galleryTop = new Swiper('.gallery-top', {
 	        nextButton: '.swiper-button-next',
 	        prevButton: '.swiper-button-prev',
 	        spaceBetween: 40,
 	        loop:true,
             grabCursor: true,
-	        loopedSlides: 10,   
+	        loopedSlides: 10,
 			breakpoints: {
 	        1024: {
                 slidesPerView: 1,
@@ -2210,55 +2210,55 @@ var RP = {};
 	        slidesPerView: 10,
 	        touchRatio: 0.2,
 	        loop:true,
-	        loopedSlides: 10, 
+	        loopedSlides: 10,
             grabCursor: true,
 	        slideToClickedSlide: true,
 	        breakpoints: {
             1150: {
                 slidesPerView: 9,
-                
+
             },
             1023: {
                 slidesPerView: 8,
-                
+
             },
             767: {
                 slidesPerView: 6,
-                
+
             },
             480: {
                 slidesPerView: 5,
                 spaceBetween: 20
-                
+
             },
             350: {
                 slidesPerView: 3,
                 spaceBetween: 20
-                
+
             },
             420: {
                 slidesPerView: 3,
                 spaceBetween: 20
-                
+
             },
             639: {
                 slidesPerView: 4,
-                
+
             }
         }
 	    });
 	    galleryTop.params.control = galleryThumbs;
 	    galleryThumbs.params.control = galleryTop;
-    
 
-    	// Testimonial Style 5  ( Dark background ) 
+
+    	// Testimonial Style 5  ( Dark background )
 		var galleryTopdemo2 = new Swiper('.gallery-top-demo2', {
 	        nextButton: '.swiper-button-next',
 	        prevButton: '.swiper-button-prev',
 	        spaceBetween: 10,
 	        loop:true,
             grabCursor: true,
-	        loopedSlides: 10,  
+	        loopedSlides: 10,
 	        breakpoints: {
             1024: {
                 slidesPerView: 1,
@@ -2276,42 +2276,42 @@ var RP = {};
                 slidesPerView: 1,
                 spaceBetween: 10
             }
-        } 
+        }
 	    });
 	    var galleryThumbsdemo2 = new Swiper('.gallery-thumbs-demo2', {
 	        spaceBetween: 40,
 	        slidesPerView: 10,
 	        touchRatio: 0.2,
 	        loop:true,
-	        loopedSlides: 10, 
+	        loopedSlides: 10,
             grabCursor: true,
 	        slideToClickedSlide: true,
 	        breakpoints: {
             1150: {
                 slidesPerView: 9,
-                
+
             },
             1023: {
                 slidesPerView: 8,
-                
+
             },
             767: {
                 slidesPerView: 6,
-                
+
             },
             480: {
                 slidesPerView: 3,
-                
+
             },
             639: {
                 slidesPerView: 4,
-                
+
             }
         }
 	    });
 	    galleryTopdemo2.params.control = galleryThumbsdemo2;
 	    galleryThumbsdemo2.params.control = galleryTopdemo2;
-    	
+
 
     	// Testimonial Style 6
         jQuery(document).ready(function($)
@@ -2334,28 +2334,28 @@ var RP = {};
                 }
         	});
         });
-		
-		
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-7243260-2']);
-		  _gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
 
-		  
+	// 	  var _gaq = _gaq || [];
+	// 	  _gaq.push(['_setAccount', 'UA-7243260-2']);
+	// 	  _gaq.push(['_trackPageview']);
+ //
+	// 	  (function() {
+	// 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	// 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	// 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	// 	  })();
+ //
+
 		  /*$(function() {
 				Grid.init();
 			}); */
-			
-			
+
+
 			 // HORIZONTAL PROGRESS BAR
 			(function(){
 				'use strict';
-				$(window).on('load', function(){    
+				$(window).on('load', function(){
 					if ( $('.h-progress').length ) {
 						$('.h-progress .progress-bar').each(function(){
 							var $this = $(this),
@@ -2368,7 +2368,7 @@ var RP = {};
 						});
 					};
 
-					
+
 					// VERTICAL PROGRESS BAR
 					if ( $('.v-progress').length ) {
 						$('.v-progress .progress-bar').each(function(){
@@ -2382,10 +2382,10 @@ var RP = {};
 						});
 					};
 
-				}); 
+				});
 		})();
-		
-		
+
+
 		//split slider
 		// $(document).ready(function() {
 		// 	$('#myContainer').multiscroll({
@@ -2401,7 +2401,7 @@ var RP = {};
 		// 		rightSelector: '.right',
 		// 	});
 		// });
-		
+
 		// Count Down JS
 		$('#countdown-3').timeTo({
 			timeTo: new Date(new Date('Tue Dec 25 2017 09:00:00 GMT+0530 (India Standard Time)')),
@@ -2411,7 +2411,7 @@ var RP = {};
 			fontSize: 48,
 			captionSize: 14
 		});
-		
+
 		 // Count Down JS
 		$('#countdown-4').timeTo({
 			timeTo: new Date(new Date('Tue Dec 25 2017 09:00:00 GMT+0530 (India Standard Time)')),
@@ -2421,7 +2421,7 @@ var RP = {};
 			fontSize: 48,
 			captionSize: 14
 		});
-			 
+
 
 		 // Count Down JS
 		$('#countdown-5').timeTo({
@@ -2431,7 +2431,7 @@ var RP = {};
 			displayCaptions: true,
 			fontSize: 48,
 			captionSize: 14
-		});		
+		});
 
 		// Count Down JS
 		$('#countdown-6').timeTo({
@@ -2441,7 +2441,7 @@ var RP = {};
 			displayCaptions: true,
 			fontSize: 48,
 			captionSize: 14
-		});	
+		});
 
 		// Count Down JS
 		$('#countdown-7').timeTo({
@@ -2452,10 +2452,10 @@ var RP = {};
 			fontSize: 48,
 			captionSize: 14
 		});
-		
-		
-		
-		// Vertical Timeline JS 
+
+
+
+		// Vertical Timeline JS
 		jQuery(document).ready(function($){
 		var timelineBlocks = $('.rp-timeline-block'),
 			offset = 0.8;
@@ -2463,7 +2463,7 @@ var RP = {};
 		hideBlocks(timelineBlocks, offset);
 		//on scolling, show/animate timeline blocks when enter the viewport
 		$(window).on('scroll', function(){
-			(!window.requestAnimationFrame) 
+			(!window.requestAnimationFrame)
 				? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
 				: window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
 		});
@@ -2478,20 +2478,20 @@ var RP = {};
 			});
 		}
 		});
-		
-	
-		// calender JS 
+
+
+		// calender JS
 		$('#demo').dcalendarpicker();
 		$('#calendar-demo').dcalendar();
-		
-		
-		// carousal js 
+
+
+		// carousal js
         jQuery(document).ready(function($) {
             var ocClientsFull = $("#rp-clients-full");
             ocClientsFull.owlCarousel({
                 items: 1,
                 itemsDesktop : [970,1],
-                margin: 59,                                
+                margin: 59,
                 padding: 80,
                 loop: true,
                 nav: true,
@@ -2510,10 +2510,10 @@ var RP = {};
                 }
             });
         });
-		
+
 		// preloader
 		$(window).load(function(){
 			$('#preloader').fadeOut('slow',function(){$(this).remove();});
 		});
-		
+
 })(jQuery);
