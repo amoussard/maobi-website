@@ -29,7 +29,7 @@ gulp.task('css', () => {
             'app/Resources/styles/font-awesome.min.css',
             'app/Resources/styles/icon.css',
             'app/Resources/styles/carousel.css',
-            'app/Resources/styles/acme-color-green.css'
+            'app/Resources/styles/moabi-color-green.css'
         ])
         // .pipe(cleanCSS({debug: true}, function(details) {
         //     console.log(details.name + ': ' + details.stats.originalSize);
