@@ -17,3 +17,9 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+    emails.general: axel.moussard@gmail.com
+    emails.admin: axel.moussard@gmail.com
+    mailer_password: bUe8u4GNtA3bGY37p0iQqQ
+    mailer_transport: smtp
+    mailer_host: smtp.mandrillapp.com
+    mailer_user: 'Quantum Monkeys'

@@ -2,9 +2,12 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Form\Type\ContactType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
@@ -38,14 +41,34 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
         ]);
     }
+
     /**
      * @Route("/contact", name="contact")
+     *
+     * @param Request $request
+     *
+     * @return RedirectResponse|Response
      */
     public function contactAction(Request $request)
     {
-        // replace this example code with whatever you need
+        $form = $this->createForm(ContactType::class, null, [
+            'action' => $this->generateUrl('contact'),
+        ]);
+
+        $form->handleRequest($request);
+
+        if ($form->isValid()) {
+            $data = $form->getData();
+
+            $this->get('app.manager.emails')->sendContactEmail($data);
+
+            $this->addFlash('contact_success', 'Thank you for contacting us!');
+
+            return $this->redirectToRoute('contact');
+        }
+
         return $this->render('default/contact.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
+            'form' => $form->createView(),
         ]);
     }
     /**
