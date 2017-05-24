@@ -1,26 +1,40 @@
-intro.title: __intro.title
-intro.description: __intro.description
-intro.feature.1.title: __intro.feature.1.title
-intro.feature.1.description: __intro.feature.1.description
-intro.feature.2.title: __intro.feature.2.title
-intro.feature.2.description: __intro.feature.2.description
-intro.feature.3.title: __intro.feature.3.title
-intro.feature.3.description: __intro.feature.3.description
-intro.feature.4.title: __intro.feature.4.title
-intro.feature.4.description: __intro.feature.4.description
-intro.talk_more: __intro.talk_more
-intro.get_quote: __intro.get_quote
-intro.what_we_do.title: __intro.what_we_do.title
-intro.what_we_do.description: __intro.what_we_do.description
-intro.learn_more: __intro.learn_more
-process.subtitle: __process.subtitle
-process.title: __process.title
-process.step.1.title: __process.step.1.title
-process.step.1.description: __process.step.1.description
-process.step.2.title: __process.step.2.title
-process.step.2.description: __process.step.2.description
-process.step.3.title: __process.step.3.title
-process.step.3.description: __process.step.3.description
-process.step.4.title: __process.step.4.title
-process.step.4.description: __process.step.4.description
-hero.title: __hero.title
+intro:
+  title: 'We are Moabi Studio and we believe in perfection'
+  description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+  feature:
+    1:
+      title: 'Strategy And Analysis'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+    2:
+      title: 'Creative Design'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+    3:
+      title: Development
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+    4:
+      title: 'Marketing & Launch'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+  talk_more: 'Wanna talk more?'
+  get_quote: 'Get a quote'
+  what_we_do:
+    title: 'What we do'
+    description: 'Lorem ipsum see this is dolor sit amet, consectetuer addipiscing elit. ou will see the Donec odio. and we Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non semper good lemond suscipit. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Praesent dapibus, neque id cursus faucibus tortor neque.'
+  learn_more: 'Learn more'
+process:
+  subtitle: 'How we work'
+  title: 'Our Process'
+  step:
+    1:
+      title: Ideas
+      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+    2:
+      title: Strategy
+      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+    3:
+      title: Development
+      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+    4:
+      title: Deliver
+      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+hero:
+  title: 'Bold, Amazing & Extraordinary'

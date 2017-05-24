@@ -1,9 +1,15 @@
-hero.title: __hero.title
-step.1.title: __step.1.title
-step.1.description: __step.1.description
-step.2.title: __step.2.title
-step.2.description: __step.2.description
-step.3.title: __step.3.title
-step.3.description: __step.3.description
-step.4.title: __step.4.title
-step.4.description: __step.4.description
+hero:
+  title: 'Our Process'
+step:
+  1:
+    title: Analysis
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+  2:
+    title: Strategy
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+  3:
+    title: Development
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+  4:
+    title: Deliver
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'

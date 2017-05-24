@@ -1,11 +1,15 @@
-hero.title: __hero.title
-description: __description
-form.label.name: __form.label.name
-form.placeholders.name: __form.placeholders.name
-form.label.email: __form.label.email
-form.placeholders.email: __form.placeholders.email
-form.label.subject: __form.label.subject
-form.placeholders.subject: __form.placeholders.subject
-form.label.message: __form.label.message
-form.placeholders.message: __form.placeholders.message
-form.label.submit: __form.label.submit
+hero:
+  title: 'Contact Us'
+description: "Please send your name, email address, and some information about yourself, your company, and your project. Kick Point’s office is located in Sydney, Melbourne and Brisben, but we work with clients all over the world. Have you read what it’s like to work with us yet?\nWe respond to all inquiries, unless you’re trying to sell us a place in your shady blog network!"
+form:
+  label:
+    name: Name
+    email: Email
+    subject: Subject
+    message: Message
+    submit: Send
+  placeholders:
+    name: 'John Doe'
+    email: name@domain.com
+    subject: 'I have a project'
+    message: 'Hey! Have you heard about my awesome project?'

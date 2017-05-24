@@ -1,24 +1,45 @@
-hero.title: __hero.title
-intro.title: __intro.title
-intro.description: __intro.description
-intro.part.1.title: __intro.part.1.title
-intro.part.1.description: __intro.part.1.description
-intro.part.2.title: __intro.part.2.title
-intro.part.2.description: __intro.part.2.description
-vision.title: __vision.title
-vision.description: __vision.description
-vision.element.1.title: __vision.element.1.title
-vision.element.2.title: __vision.element.2.title
-vision.element.3.title: __vision.element.3.title
-vision.element.4.title: __vision.element.4.title
-vision.element.5.title: __vision.element.5.title
-vision.element.6.title: __vision.element.6.title
-vision.element.7.title: __vision.element.7.title
-vision.element.8.title: __vision.element.8.title
-mission.title: __mission.title
-team.axel.position: __team.axel.position
-team.axel.description: __team.axel.description
-team.patrick.position: __team.patrick.position
-team.patrick.description: __team.patrick.description
-team.karyann.position: __team.karyann.position
-team.karyann.description: __team.karyann.description
+hero:
+  title: 'About us'
+intro:
+  title: 'About us'
+  description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+  part:
+    1:
+      title: 'We are creative thinker'
+      description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+    2:
+      title: 'We are crafter'
+      description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+vision:
+  title: 'Our Vision'
+  description: 'Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.'
+  element:
+    1:
+      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    2:
+      title: 'Aliquam tincidunt mauris eu risus.'
+    3:
+      title: 'Vestibulum auctor dapibus neque.'
+    4:
+      title: 'Nunc dignissim risus id metus.'
+    5:
+      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    6:
+      title: 'Aliquam tincidunt mauris eu risus.'
+    7:
+      title: 'Vestibulum auctor dapibus neque.'
+    8:
+      title: 'Nunc dignissim risus id metus.'
+mission:
+  title: 'Our Mission'
+  description: "Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.\nSed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.\nMorbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque ."
+team:
+  axel:
+    position: __team.axel.position
+    description: 'Passionate by development, he is convinced that work’s quality of a team is all about innovation and rigor. Best ally of your development teams, he will highlight their strengths and work with their weaknesses.'
+  patrick:
+    position: __team.patrick.position
+    description: 'Patrick believes in the fact that we are our own limitation: people can do a lot more than they think, given the right tools, and that team cohesion, transparency and implication are some of these tools.'
+  karyann:
+    position: __team.karyann.position
+    description: 'She gravitates in the communication world and practices media monitoring activities to stay aware of emerging tendencies. She’s interested in online marketing strategies as well as the creation advertising and corporate events.'

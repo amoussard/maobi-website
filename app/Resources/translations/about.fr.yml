@@ -1,24 +1,45 @@
-hero.title: __hero.title
-intro.title: __intro.title
-intro.description: __intro.description
-intro.part.1.title: __intro.part.1.title
-intro.part.1.description: __intro.part.1.description
-intro.part.2.title: __intro.part.2.title
-intro.part.2.description: __intro.part.2.description
-vision.title: __vision.title
-vision.description: __vision.description
-vision.element.1.title: __vision.element.1.title
-vision.element.2.title: __vision.element.2.title
-vision.element.3.title: __vision.element.3.title
-vision.element.4.title: __vision.element.4.title
-vision.element.5.title: __vision.element.5.title
-vision.element.6.title: __vision.element.6.title
-vision.element.7.title: __vision.element.7.title
-vision.element.8.title: __vision.element.8.title
-mission.title: __mission.title
-team.axel.position: __team.axel.position
-team.axel.description: __team.axel.description
-team.patrick.position: __team.patrick.position
-team.patrick.description: __team.patrick.description
-team.karyann.position: __team.karyann.position
-team.karyann.description: __team.karyann.description
+hero:
+  title: 'À propos'
+intro:
+  title: 'À propos'
+  description: __intro.description
+  part:
+    1:
+      title: __intro.part.1.title
+      description: __intro.part.1.description
+    2:
+      title: __intro.part.2.title
+      description: __intro.part.2.description
+vision:
+  title: __vision.title
+  description: __vision.description
+  element:
+    1:
+      title: __vision.element.1.title
+    2:
+      title: __vision.element.2.title
+    3:
+      title: __vision.element.3.title
+    4:
+      title: __vision.element.4.title
+    5:
+      title: __vision.element.5.title
+    6:
+      title: __vision.element.6.title
+    7:
+      title: __vision.element.7.title
+    8:
+      title: __vision.element.8.title
+mission:
+  title: __mission.title
+  description: __mission.description
+team:
+  axel:
+    position: __team.axel.position
+    description: 'Passionné par le développement, il est persuadé que la qualité du travail d''une équipe passe avant tout par l''innovation et la rigueur. Meilleur allié de vos équipes de développement, il mettra en avant leurs forces et travaillera avec eux leurs faiblesses.'
+  patrick:
+    position: __team.patrick.position
+    description: 'Patrick croit profondément que nous sommes nos propres limitations : les gens peuvent faire beaucoup plus que ce qu''ils pensent, avec les bons outils, une bonne osmose dans l''équipe, de la transparence, de l''implication.'
+  karyann:
+    position: __team.karyann.position
+    description: 'Elle gravite dans le monde des communications et se livre à des activités de veille médiatique afin de rester à l’affût des tendances émergentes. Elle s’intéresse aux stratégies marketing en ligne mais aussi à la création d’événements publicitaires et corporatifs.'
