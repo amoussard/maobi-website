@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% trans_default_domain 'contact' %}
+
 {% form_theme form 'form/contact.html.twig' %}
 
 {% block body %}
@@ -9,7 +11,7 @@
             <div class="container">
                 <!-- Page Title -->
                 <div class="page-title">
-                    <h1>Contact Us</h1>
+                    <h1>{{ 'hero.title'|trans }}</h1>
                 </div>
             </div>
         </div>
@@ -18,8 +20,8 @@
     <div class="container">
         <!-- Breadcrumb -->
         <ul class="breadcrumb">
-            <li><a href="#">Home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="{{ path('homepage') }}">{{ 'menu.home'|trans({}, 'global') }}</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li>{{ 'menu.contact'|trans({}, 'global') }}</li>
         </ul>
     </div>
 
@@ -35,9 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-                    <p>Please send your name, email address, and some information about yourself, your company, and your project. Kick Point’s office is located in Sydney, Melbourne and Brisben, but we work with clients all over the world. Have you read what it’s like to work with us yet? </p>
-
-                    <p>We respond to all inquiries, unless you’re trying to sell us a place in your shady blog network!</p>
+                    {{ 'description'|trans|markdown }}
                 </div>
             </div>
 
@@ -51,38 +51,31 @@
 
                 <div class="col-lg-5 col-sm-5 col-md-4 col-xs-12 pull-right">
                     <div class="contact-sidebar">
-                        <p>4065 rue Régina-Gagnon,<br>QC J3Y 0N3 Saint-Hubert, Canada.</p>
+                        <p>{{ 'footer.address'|trans({}, 'global') }}</p>
                     </div>
                     <!-- Address -->
                     <div class="address">
-                        <p><span>p</span> 438-393-0144<br>
-                            <span>E</span> hello@moabistudio.com</p>
+                        <p>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:+14383930144">{{ 'footer.tel'|trans({}, 'global') }}</a>
+                            <br>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:hello@moabistudio.com">{{ 'footer.email'|trans({}, 'global') }}</a>
+                        </p>
                     </div>
                     <!-- Social Icon -->
                     <div class="style-four dark-grey squareborder contact-social-icon">
-                        <a href="#" class="social-icon si-rounded  si-border-dark si-delicious" data-toggle="tooltip" data-placement="top" title="Delicious">
-                            <i class="fa fa-behance" aria-hidden="true"></i>
-                            <i class="fa fa-behance" aria-hidden="true"></i>
-                        </a>
-
-                        <a href="#" class="social-icon si-rounded  si-border-dark si-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+                        <a href="https://www.facebook.com/moabistudio/" target="_blank" class="social-icon si-rounded  si-border-dark si-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
 
-                        <a href="#" class="social-icon si-rounded  si-border-dark si-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                        <a href="https://twitter.com/MoabiStudio" target="_blank" class="social-icon si-rounded  si-border-dark si-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
 
-                        <a href="#" class="social-icon si-rounded  si-border-dark si-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                        <a href="https://www.linkedin.com/organization/11127360" target="_blank" class="social-icon si-rounded  si-border-dark si-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-
-                        <a href="#" class="social-icon si-rounded  si-border-dark si-gplus" data-toggle="tooltip" data-placement="top" title="GooglePlus">
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>

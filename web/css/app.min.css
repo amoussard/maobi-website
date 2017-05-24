@@ -20147,6 +20147,7 @@ input[type="checkbox"] + .lbl.gradient::before, input[type="radio"] + .lbl.gradi
   color: #56ab2f;
 }
 
-.footer-style-4 a[href^="mailto:"] {
+.footer-style-4 a[href^="mailto:"],
+.footer-style-4 a[href^="tel:"] {
   color: #56ab2f;
 }

@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% trans_default_domain 'about' %}
+
 {% block body %}
     <div class="heading-style style-one" style="background-image: url(http://placehold.it/1920x400);">
         <!-- Heading Inner -->
@@ -7,7 +9,7 @@
             <div class="container">
                 <!-- Page Title -->
                 <div class="page-title">
-                    <h1>About us</h1>
+                    <h1>{{ 'hero.title'|trans }}</h1>
                 </div>
             </div>
         </div>
@@ -16,27 +18,27 @@
     <div class="container">
         <!-- Breadcrumb -->
         <ul class="breadcrumb">
-            <li><a href="#">Home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="{{ path('homepage') }}">{{ 'menu.home'|trans({}, 'global') }}</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li>{{ 'menu.about_us'|trans({}, 'global') }}</li>
         </ul>
     </div>
 
     <div class="container padding-top-70">
         <div class="container">
-            <h2>About Us</h2>
-            <p>We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut  aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.</p>
+            <h2>{{ 'intro.title'|trans }}</h2>
+            <p>{{ 'intro.description'|trans }}</p>
         </div>
         <div class="spacer50"></div>
         <div class="spacer20"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h4>We are creative thinker</h4>
-                    <p>We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut  aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.</p>
+                    <h4>{{ 'intro.part.1.title'|trans }}</h4>
+                    <p>{{ 'intro.part.1.description'|trans }}</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h4>We are crafter</h4>
-                    <p>We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut  aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.</p>
+                    <h4>{{ 'intro.part.2.title'|trans }}</h4>
+                    <p>{{ 'intro.part.2.description'|trans }}</p>
                 </div>
             </div>
         </div>
@@ -45,23 +47,21 @@
 
         <!--our vision-->
         <div class="container">
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut  aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.</p>
+            <h2>{{ 'vision.title'|trans }}</h2>
+            <p>{{ 'vision.description'|trans }}</p>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <ul class="list-circle">
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Aliquam tincidunt mauris eu risus.</li>
-                        <li>Vestibulum auctor dapibus neque.</li>
-                        <li>Nunc dignissim risus id metus.</li>
+                        {% for i in 1..4 %}
+                            <li>{{ ('vision.element.' ~ i ~ '.title')|trans }}</li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <ul class="list-circle">
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Aliquam tincidunt mauris eu risus.</li>
-                        <li>Vestibulum auctor dapibus neque.</li>
-                        <li>Nunc dignissim risus id metus.</li>
+                        {% for i in 5..8 %}
+                            <li>{{ ('vision.element.' ~ i ~ '.title')|trans }}</li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
@@ -71,10 +71,8 @@
 
         <!--our mission-->
         <div class="container">
-            <h2>Our Mission</h2>
-            <p>Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut  aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.</p>
-            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-            <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque .</p>
+            <h2>{{ 'mission.title'|trans }}</h2>
+            {{ 'vision.description'|trans|markdown }}
         </div>
         <div class="spacer30"></div>
         <div class="divider light-gray"></div>
@@ -97,30 +95,25 @@
                                     <a href="#">Axel Moussard</a>
                                 </div>
                                 <!-- team Designation -->
-                                <div class="team-designation">CTO</div>
-                                <p>Seded ut perspiciatis unde omnis iste natus error sit amet voluptatem accusantium Lorem ipsum dolor sit amet, total consectetuer adipiscing elit. Phasellus hendrerit jupiter and- Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.</p>
-                                <p>Morbi purus libero, faucibus vitae facilisis libero dolor a purus. Sed </p>
+                                <div class="team-designation">{{ 'team.axel.position'|trans }}</div>
+                                {{ 'team.axel.description'|trans|markdown }}
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-facebook" href="#">
+                                    <a class="social-icon si-colored si-facebook" target="_blank" href="https://www.facebook.com/axel.moussard">
                                         <i aria-hidden="true" class="fa fa-facebook"></i>
                                         <i aria-hidden="true" class="fa fa-facebook"></i>
                                     </a>
-                                    <a class="social-icon si-colored si-twitter" href="#">
+                                    <a class="social-icon si-colored si-twitter" target="_blank" href="https://twitter.com/drassuom">
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                     </a>
-                                    <a class="social-icon si-colored si-linkedin" href="#">
+                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/axel-moussard/">
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                     </a>
-                                    <a class="social-icon si-colored si-gplus" href="#">
+                                    <a class="social-icon si-colored si-gplus" target="_blank" href="https://plus.google.com/u/0/+AxelMoussard">
                                         <i aria-hidden="true" class="fa fa-google-plus"></i>
                                         <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-delicious" href="#">
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
                                     </a>
                                 </div>
                             </div>
@@ -135,30 +128,17 @@
                                     <a href="#">Patrick Roux</a>
                                 </div>
                                 <!-- team Designation -->
-                                <div class="team-designation">Graphic Designer & Wordpress Developer</div>
-                                <p>Seded ut perspiciatis unde omnis iste natus error sit amet voluptatem accusantium Lorem ipsum dolor sit amet, total consectetuer adipiscing elit. Phasellus hendrerit jupiter and- Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.</p>
-                                <p>Morbi purus libero, faucibus vitae facilisis libero dolor a purus.Sed </p>
+                                <div class="team-designation">{{ 'team.patrick.position'|trans }}</div>
+                                {{ 'team.patrick.description'|trans|markdown }}
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-facebook" href="#">
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-twitter" href="#">
+                                    <a class="social-icon si-colored si-twitter" target="_blank" href="https://twitter.com/AdopteUnRoux">
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                     </a>
-                                    <a class="social-icon si-colored si-linkedin" href="#">
+                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/patrick-roux/">
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-gplus" href="#">
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-delicious" href="#">
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
                                     </a>
                                 </div>
                             </div>
@@ -185,30 +165,13 @@
                                     <a href="#">Karyann Pilon</a>
                                 </div>
                                 <!-- team Designation -->
-                                <div class="team-designation">SEO & Marketing</div>
-                                <p>Seded ut perspiciatis unde omnis iste natus error sit amet voluptatem accusantium Lorem ipsum dolor sit amet, total consectetuer adipiscing elit. Phasellus hendrerit jupiter and- Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.</p>
-                                <p>Morbi purus libero, faucibus vitae facilisis libero dolor a purus. Sed </p>
+                                <div class="team-designation">{{ 'team.karyann.position'|trans }}</div>
+                                {{ 'team.karyann.description'|trans|markdown }}
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-facebook" href="#">
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-twitter" href="#">
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-linkedin" href="#">
+                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/karyann-pilon-63a871132/">
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-gplus" href="#">
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-delicious" href="#">
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
-                                        <i aria-hidden="true" class="fa fa-behance"></i>
                                     </a>
                                 </div>
                             </div>

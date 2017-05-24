@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% trans_default_domain 'home' %}
+
 {% block body %}
     <div class="transparent-header">
         <!-- Banner Section -->
@@ -7,7 +9,7 @@
             <div class="banner-overlay"></div>
             <div class="banner-inner">
                 <div class="container">
-                    <h1>Bold, Amazing & Extraordinary</h1>
+                    <h1>{{ 'hero.title'|trans }}</h1>
                     {#<ul>#}
                         {#<li><a href="#" class="button-medium button-white-border">View Demos</a></li>#}
                         {#<li><a href="#" class="button-medium button-white">Purchase Acme</a></li>#}

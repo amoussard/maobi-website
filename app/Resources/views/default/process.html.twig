@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% trans_default_domain 'process' %}
+
 {% block body %}
     <!-- Heading Style -->
     <div class="heading-style style-one" style="background-image: url(http://placehold.it/1920x400);">
@@ -8,7 +10,7 @@
             <div class="container">
                 <!-- Page Title -->
                 <div class="page-title">
-                    <h1>Our Process</h1>
+                    <h1>{{ 'hero.title'|trans }}</h1>
                 </div>
             </div>
         </div>
@@ -17,8 +19,8 @@
     <div class="container">
         <!-- Breadcrumb -->
         <ul class="breadcrumb">
-            <li><a href="#">Home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li><a href="#">Our Process</a></li>
+            <li><a href="{{ path('homepage') }}">{{ 'menu.home'|trans({}, 'global') }}</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li>{{ 'menu.process'|trans({}, 'global') }}</li>
         </ul>
     </div>
 
@@ -32,19 +34,19 @@
                     <!-- Our Process Detail -->
                     <div class="detail">
                         <div class="number">01</div>
-                        <h2>Analysis</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue. </p>
+                        <h2>{{ 'step.1.title'|trans }}</h2>
+                        <p>{{ 'step.1.description'|trans }}</p>
                     </div>
 
                     <!-- Our Process Image -->
                     <div class="image">
-                        <img src="images/our-process-1.png" alt="Our Process">
+                        <img src="{{ asset('/images/our-process-1.png') }}" alt="Our Process">
                     </div>
 
                 </div>
                 <!-- Process Line -->
                 <div class="process-line">
-                    <img  src="images/process.svg" alt="Process Line">
+                    <img  src="{{ asset('/images/process.svg') }}" alt="Process Line">
                 </div>
 
                 <!-- Our Process Box -->
@@ -52,20 +54,20 @@
 
                     <!-- Our Process Image -->
                     <div class="image">
-                        <img src="images/our-process-2.png" alt="Our Process">
+                        <img src="{{ asset('/images/our-process-2.png') }}" alt="Our Process">
                     </div>
 
                     <!-- Our Process Detail -->
                     <div class="detail">
                         <div class="number">02</div>
-                        <h2>Strategy</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue. </p>
+                        <h2>{{ 'step.2.title'|trans }}</h2>
+                        <p>{{ 'step.2.description'|trans }}</p>
                     </div>
 
                 </div>
                 <!-- Process Line -->
                 <div class="process-line">
-                    <img  src="images/process2.svg" alt="Process Line">
+                    <img  src="{{ asset('/images/process2.svg') }}" alt="Process Line">
                 </div>
 
 
@@ -73,19 +75,19 @@
                     <!-- Our Process Detail -->
                     <div class="detail">
                         <div class="number">03</div>
-                        <h2>Development</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue. </p>
+                        <h2>{{ 'step.3.title'|trans }}</h2>
+                        <p>{{ 'step.3.description'|trans }}</p>
                     </div>
 
                     <!-- Our Process Image -->
                     <div class="image">
-                        <img src="images/our-process-3.png" alt="Our Process">
+                        <img src="{{ asset('/images/our-process-3.png') }}" alt="Our Process">
                     </div>
 
                 </div>
                 <!-- Process Line -->
                 <div class="process-line">
-                    <img  src="images/process.svg" alt="Process Line">
+                    <img  src="{{ asset('/images/process.svg') }}" alt="Process Line">
                 </div>
 
                 <!-- Our Process Box -->
@@ -93,13 +95,13 @@
 
                     <!-- Our Process Image -->
                     <div class="image">
-                        <img src="images/our-process-4.png" alt="Our Process">
+                        <img src="{{ asset('/images/our-process-4.png') }}" alt="Our Process">
                     </div>
                     <!-- Our Process Detail -->
                     <div class="detail">
                         <div class="number">04</div>
-                        <h2>Deliver</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue. </p>
+                        <h2>{{ 'step.4.title'|trans }}</h2>
+                        <p>{{ 'step.4.description'|trans }}</p>
                     </div>
                 </div>
             </div>

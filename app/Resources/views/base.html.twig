@@ -1,3 +1,5 @@
+{% trans_default_domain 'global' %}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -51,10 +53,11 @@
                     <div class="container">
                         <nav id="mainMenu" class="main-menu mega-menu">
                             <ul class="main-menu nav nav-pills">
-                                <li><a href="{{ path('homepage') }}">Home</a></li>
-                                <li><a href="{{ path('process') }}">Our process</a></li>
-                                <li><a href="{{ path('about') }}">About us</a></li>
-                                <li><a href="{{ path('contact') }}">Contact</a></li>
+                                <li><a href="{{ path('homepage') }}">{{ 'menu.home'|trans }}</a></li>
+                                <li><a href="{{ path('process') }}">{{ 'menu.process'|trans }}</a></li>
+                                <li><a href="{{ path('about') }}">{{ 'menu.about_us'|trans }}</a></li>
+                                <li><a href="{{ path('contact') }}">{{ 'menu.contact'|trans }}</a></li>
+                                <li><a href="{{ getReverseLocaleUrl() }}">{{ ('lang_switch.' ~ getTargetLocale())|trans }}</a></li>
                                 {#<li><a href="{{ path('blog') }}">Blog</a></li>#}
                             </ul>
                         </nav>
@@ -74,22 +77,24 @@
                 <img src="images/logo-dark.png" alt="Logo">
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <h6 class="footer-title">visit us</h6>
-                <p class="top">4065 rue Régina Gagnon, Saint-Hubert, <br> QC J3Y 0N3, Canada</p>
+                <h6 class="footer-title">{{ 'footer.visit_us'|trans }}</h6>
+                <p class="top">{{ 'footer.address'|trans }}</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <h6 class="footer-title">talk with us</h6>
-                <p class="top">+1 4383930144<br>
-                    <a class="top" href="mailto:hello@moabi.ca">hello@moabi.ca</a></p>
+                <h6 class="footer-title">{{ 'footer.talk_with_us'|trans }}</h6>
+                <p class="top">
+                    <a href="tel:+14383930144">{{ 'footer.tel'|trans }}</a>
+                    <br>
+                    <a class="top" href="mailto:hello@moabi.ca">{{ 'footer.email'|trans }}</a></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <h6 class="footer-title">follow US</h6>
+                <h6 class="footer-title">{{ 'footer.follow_us'|trans }}</h6>
                 <div class="social-icon-box top">
                     <a target="blank" href="https://www.facebook.com/moabistudio/" class="social-icon si-facebook" title="Facebook">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a target="blank" href="#" class="social-icon si-twitter" title="Twitter">
+                    <a target="blank" href="https://twitter.com/MoabiStudio" class="social-icon si-twitter" title="Twitter">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                     </a>
@@ -111,7 +116,7 @@
         <!-- Footer bottom -->
         <div class="bottom-footer">
             <div class="container text-center">
-                <p class="copyright">Copyright © 2017. Moabi Studio.</p>
+                <p class="copyright">{{ 'footer.copyright'|trans }}</p>
             </div>
         </div>
     </footer>

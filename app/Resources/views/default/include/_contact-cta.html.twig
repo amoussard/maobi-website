@@ -1,8 +1,10 @@
+{% trans_default_domain 'global' %}
+
 <div style="background-color: #56ab2f" class="call-to-action style-four style-one">
     <div class="container">
         <div class="pricing-title text-center">
-            <h4>Have a Project to discuss?</h4>
-            <a class="button-medium button-white-border" href="{{ path('contact') }}">Get In Touch</a>
+            <h4>{{ 'cta.get_in_touch.title'|trans }}</h4>
+            <a class="button-medium button-white-border" href="{{ path('contact') }}">{{ 'cta.get_in_touch.link'|trans }}</a>
         </div>
     </div>
 </div>

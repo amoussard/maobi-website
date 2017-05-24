@@ -1,0 +1,15 @@
+menu.home: __menu.home
+menu.process: __menu.process
+menu.about_us: __menu.about_us
+menu.contact: __menu.contact
+footer.visit_us: __footer.visit_us
+footer.address: __footer.address
+footer.talk_with_us: __footer.talk_with_us
+footer.tel: __footer.tel
+footer.email: __footer.email
+footer.follow_us: __footer.follow_us
+footer.copyright: __footer.copyright
+cta.get_in_touch.title: __cta.get_in_touch.title
+cta.get_in_touch.link: __cta.get_in_touch.link
+lang_switch.en: __lang_switch.en
+lang_switch.fr: __lang_switch.fr

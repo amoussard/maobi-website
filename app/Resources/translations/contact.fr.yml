@@ -1,0 +1,11 @@
+hero.title: __hero.title
+description: __description
+form.label.name: __form.label.name
+form.placeholders.name: __form.placeholders.name
+form.label.email: __form.label.email
+form.placeholders.email: __form.placeholders.email
+form.label.subject: __form.label.subject
+form.placeholders.subject: __form.placeholders.subject
+form.label.message: __form.label.message
+form.placeholders.message: __form.placeholders.message
+form.label.submit: __form.label.submit
