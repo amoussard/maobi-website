@@ -486,3 +486,27 @@ input[type="checkbox"] + .lbl.gradient::before, input[type="radio"] + .lbl.gradi
 .footer-style-4 a[href^="tel:"] {
   color: #56ab2f;
 }
+
+.footer-style-4 .logo {
+  width: 40%;
+  margin: 15px auto;
+  display: block;
+}
+
+#logo a {
+  padding-top: 35px;
+}
+
+#logo img {
+  height: 30px;
+}
+
+@media (max-width: 991px) {
+  #logo img {
+    height: 42px;
+  }
+
+  #logo a {
+    padding: 25px 0 0 0;
+  }
+}
