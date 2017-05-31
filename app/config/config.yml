@@ -67,13 +67,13 @@ swiftmailer:
     transport: accord_mandrill
 
 jms_i18n_routing:
-    default_locale: en
-    locales: [en, fr]
+    default_locale: fr
+    locales: [fr]
     strategy: prefix_except_default
 
 lexik_translation:
-    fallback_locale: [en]         # (required) default locale(s) to use
-    managed_locales: [en, fr] # (required) locales that the bundle have to manage
+    fallback_locale: [fr]
+    managed_locales: [fr]
     exporter:
         use_yml_tree: true
     auto_cache_clean: true

@@ -2,19 +2,9 @@
 
 {% trans_default_domain 'about' %}
 
-{% block body %}
-    <div class="heading-style style-one" style="background-image: url(http://placehold.it/1920x400);">
-        <!-- Heading Inner -->
-        <div class="heading-inner">
-            <div class="container">
-                <!-- Page Title -->
-                <div class="page-title">
-                    <h1>{{ 'hero.title'|trans }}</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}
 
+{% block body %}
     <div class="container">
         <!-- Breadcrumb -->
         <ul class="breadcrumb">

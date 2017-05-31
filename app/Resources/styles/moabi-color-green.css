@@ -494,19 +494,45 @@ input[type="checkbox"] + .lbl.gradient::before, input[type="radio"] + .lbl.gradi
 }
 
 #logo a {
-  padding-top: 35px;
+  padding-top: 24px;
 }
 
 #logo img {
-  height: 30px;
+  height: 50px;
 }
 
 @media (max-width: 991px) {
   #logo img {
-    height: 42px;
+    height: 60px;
   }
 
   #logo a {
-    padding: 25px 0 0 0;
+    padding: 16px 0 0 0;
   }
+}
+
+.header-sticky #logo a {
+  padding-top: 6px;
+}
+
+.banner.banner400 {
+  position: relative;
+  display: table;
+  width: 100%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner.banner400 .banner-inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+
+.banner.banner400 .banner-inner h1 {
+  color: #fff;
 }

@@ -4,19 +4,9 @@
 
 {% form_theme form 'form/contact.html.twig' %}
 
-{% block body %}
-    <div class="heading-style style-one" style="background-image: url(http://placehold.it/1920x400);">
-        <!-- Heading Inner -->
-        <div class="heading-inner">
-            <div class="container">
-                <!-- Page Title -->
-                <div class="page-title">
-                    <h1>{{ 'hero.title'|trans }}</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}
 
+{% block body %}
     <div class="container">
         <!-- Breadcrumb -->
         <ul class="breadcrumb">
@@ -56,9 +46,9 @@
                     <!-- Address -->
                     <div class="address">
                         <p>
-                            <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:+14383930144">{{ 'footer.tel'|trans({}, 'global') }}</a>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:{{ 'footer.tel'|trans({}, 'global') }}">{{ 'footer.tel'|trans({}, 'global') }}</a>
                             <br>
-                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:hello@moabistudio.com">{{ 'footer.email'|trans({}, 'global') }}</a>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:{{ 'footer.email'|trans({}, 'global') }}">{{ 'footer.email'|trans({}, 'global') }}</a>
                         </p>
                     </div>
                     <!-- Social Icon -->
@@ -85,6 +75,6 @@
 
     <!-- Google Map -->
     <div class="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.132433188042!2d-73.39021368428561!3d45.467136079101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc906150497dc4b%3A0x7e5d7f63f617fd4b!2s4065+Rue+R%C3%A9gina-Gagnon%2C+Saint-Hubert%2C+QC+J3Y+5L1!5e0!3m2!1sfr!2sca!4v1495497344990"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.714079388119!2d-73.59761504827259!3d45.535958978999346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91966fab55f39%3A0xad6b408ca4f29568!2s5866+Rue+de+la+Roche%2C+Montr%C3%A9al%2C+QC+H2S+2C7!5e0!3m2!1sfr!2sca!4v1496260461981"></iframe>
     </div>
 {% endblock %}

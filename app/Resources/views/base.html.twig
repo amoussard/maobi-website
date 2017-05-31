@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('css/app.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('/css/app.min.css') }}" />
     {% endblock %}
 </head>
 <body class="wide">
@@ -38,8 +38,8 @@
             <div class="container">
                 <!--LOGO-->
                 <div id="logo">
-                    <a href="index.html" class="logo" data-dark-logo="images/logo.png">
-                        <img src="images/logo-dark.png" alt="Polo Logo">
+                    <a href="{{ path('homepage') }}" class="logo" data-dark-logo="{{ asset('/images/logo.png') }}">
+                        <img src="{{ asset('/images/logo-dark.png') }}" alt="Logo">
                     </a>
                 </div>
 
@@ -57,7 +57,7 @@
                                 <li><a href="{{ path('process') }}">{{ 'menu.process'|trans }}</a></li>
                                 <li><a href="{{ path('about') }}">{{ 'menu.about_us'|trans }}</a></li>
                                 <li><a href="{{ path('contact') }}">{{ 'menu.contact'|trans }}</a></li>
-                                <li><a href="{{ getReverseLocaleUrl() }}">{{ ('lang_switch.' ~ getTargetLocale())|trans }}</a></li>
+                                {#<li><a href="{{ getReverseLocaleUrl() }}">{{ ('lang_switch.' ~ getTargetLocale())|trans }}</a></li>#}
                                 {#<li><a href="{{ path('blog') }}">Blog</a></li>#}
                             </ul>
                         </nav>
@@ -68,7 +68,21 @@
     </header>
 
     <div class="main-content">
-        {% block body %}{% endblock %}
+        <div class="transparent-header">
+            {% block hero %}
+                <!-- Banner Section -->
+                <div class="banner banner400" style="background-image: url({% block hero_image %}{{ asset('/images/hero.jpg') }}{% endblock %});">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-inner">
+                        <div class="container">
+                            <h1>{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}</h1>
+                        </div>
+                    </div>
+                </div>
+            {% endblock %}
+
+            {% block body %}{% endblock %}
+        </div>
     </div>
 
     <footer class="footer-style-4">
@@ -83,9 +97,9 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <h6 class="footer-title">{{ 'footer.talk_with_us'|trans }}</h6>
                 <p class="top">
-                    <a href="tel:+14383930144">{{ 'footer.tel'|trans }}</a>
+                    <a href="tel:{{ 'footer.tel'|trans }}">{{ 'footer.tel'|trans }}</a>
                     <br>
-                    <a class="top" href="mailto:hello@moabi.ca">{{ 'footer.email'|trans }}</a></p>
+                    <a class="top" href="mailto:{{ 'footer.email'|trans }}">{{ 'footer.email'|trans }}</a></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <h6 class="footer-title">{{ 'footer.follow_us'|trans }}</h6>

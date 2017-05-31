@@ -2,22 +2,23 @@
 
 {% trans_default_domain 'home' %}
 
-{% block body %}
-    <div class="transparent-header">
-        <!-- Banner Section -->
-        <div class="banner full" style="background-image: url(http://placehold.it/1920x1080);">
-            <div class="banner-overlay"></div>
-            <div class="banner-inner">
-                <div class="container">
-                    <h1>{{ 'hero.title'|trans }}</h1>
-                    {#<ul>#}
-                        {#<li><a href="#" class="button-medium button-white-border">View Demos</a></li>#}
-                        {#<li><a href="#" class="button-medium button-white">Purchase Acme</a></li>#}
-                    {#</ul>#}
-                </div>
+{% block hero %}
+    <!-- Banner Section -->
+    <div class="banner full" style="background-image: url({{ asset('/images/hero.jpg') }});">
+        <div class="banner-overlay"></div>
+        <div class="banner-inner">
+            <div class="container">
+                <h1>{{ 'hero.title'|trans }}</h1>
+                {#<ul>#}
+                {#<li><a href="#" class="button-medium button-white-border">View Demos</a></li>#}
+                {#<li><a href="#" class="button-medium button-white">Purchase Acme</a></li>#}
+                {#</ul>#}
             </div>
         </div>
+    </div>
+{% endblock %}
 
+{% block body %}
         <div class="spacer70"></div>
         {% include 'default/include/_introduction.html.twig' %}
 
@@ -38,5 +39,4 @@
         <div class="spacer100"></div>
         <!-- call to Action -->
         {% include 'default/include/_contact-cta.html.twig' %}
-    </div>
 {% endblock %}
