@@ -4,8 +4,8 @@ menu:
   about_us: 'À propos'
   contact: Contact
 footer:
-  visit_us: __footer.visit_us
-  address: __footer.address
+  visit_us: 'Nous rendre visite'
+  address: '5866 rue De la Roche <br/> Montréal, Québec H2S 2C7'
   talk_with_us: 'Venez nous parlez'
   tel: '438 393 0144'
   email: hello@moabistudio.com

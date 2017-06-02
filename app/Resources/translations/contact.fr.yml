@@ -1,6 +1,6 @@
+description: 'Une question ou une proposition de projet? Écris-nous !'
 hero:
-  title: __hero.title
-description: __description
+  title: Contactez-nous
 form:
   label:
     name: Nom
@@ -11,5 +11,5 @@ form:
   placeholders:
     name: 'John Doe'
     email: nom@domaine.com
-    subject: 'J''ai un projet'
+    subject: 'J''ai un projet !'
     message: 'Hey ! As-tu entendu parler de mon super projet ?'

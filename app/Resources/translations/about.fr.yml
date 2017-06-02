@@ -2,41 +2,41 @@ hero:
   title: 'À propos'
 intro:
   title: 'À propos'
-  description: __intro.description
+  description: "Les usages et les technologies émergeant du web évoluent à grande vitesse. Le web est aujourd’hui un médium permettant de développer des expériences numériques vastes et variées, bien au delà d’un site web au sens traditionnel du terme. \n\nDans cette optique, nous souhaitons explorer les possibilités offertes par le web avec nos collaborateurs. En combinant notre expertise à vos idées et en effectuant un suivi rigoureux, nous aspirons à créer des expériences numériques complètes et originales."
   part:
     1:
-      title: __intro.part.1.title
-      description: __intro.part.1.description
+      title: 'Nous sommes créatifs'
+      description: 'Nous aimons essayer de nouvelles façons de faire les choses et repousser les limites du possible. Nous approchons les problèmes avec originalité et ingéniosité.'
     2:
-      title: __intro.part.2.title
-      description: __intro.part.2.description
+      title: 'Nous sommes des artisans'
+      description: 'Le web, c’est notre passion. Nous réalisons nos projets avec rigueur et minutie. Nous agençons idées et techniques pour créer des résultats épatants.'
 vision:
-  title: __vision.title
-  description: __vision.description
+  title: 'Notre vision'
+  description: 'Nous aimons impliquer tous les intervenants d’un projet (clients, équipes, partenaires...) dans nos créations, de l’idéation à la livraison. Ils ont tous de la valeur à apporter. Nous tenons aussi à créer des relations gagnant-gagnant : les succès se partagent.'
 mission:
-  title: __mission.title
-  description: __mission.description
+  title: 'Notre mission'
+  description: 'Être complice du succès de votre projet en déployant les outils numériques adaptés. Nous aimons travailler en toute transparence et respecter nos engagements.'
 values:
-  title: __values.title
+  title: 'Nos valeurs'
   first:
-    title: __values.first.title
+    title: 'Livrer de la valeur en continue'
     text: __values.first.text
   second:
-    title: __values.second.title
+    title: 'Expérimenter et apprendre rapidement'
     text: __values.second.text
   third:
-    title: __values.third.title
+    title: 'Créer un environnement sécuritaire, propice aux échanges constructifs'
     text: __values.third.text
   fourth:
-    title: __values.fourth.title
+    title: 'Libérer le potentiel'
     text: __values.fourth.text
 team:
   axel:
-    position: __team.axel.position
+    position: 'Directeur technique'
     description: 'Passionné par le développement, il est persuadé que la qualité du travail d''une équipe passe avant tout par l''innovation et la rigueur. Meilleur allié de vos équipes de développement, il mettra en avant leurs forces et travaillera avec eux leurs faiblesses.'
   patrick:
-    position: __team.patrick.position
+    position: 'Directeur projet'
     description: 'Patrick croit profondément que nous sommes nos propres limitations : les gens peuvent faire beaucoup plus que ce qu''ils pensent, avec les bons outils, une bonne osmose dans l''équipe, de la transparence, de l''implication.'
   karyann:
-    position: __team.karyann.position
-    description: 'Elle gravite dans le monde des communications et se livre à des activités de veille médiatique afin de rester à l’affût des tendances émergentes. Elle s’intéresse aux stratégies marketing en ligne mais aussi à la création d’événements publicitaires et corporatifs.'
+    position: 'Responsable marketing numérique'
+    description: 'Karyann se livre à des activités de veille médiatique afin de rester à l’affût des tendances émergentes en matière de web. Elle se spécialise dans les stratégies de marketing numérique et dans la création de contenus.'

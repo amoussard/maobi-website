@@ -1,40 +1,40 @@
 intro:
-  title: __intro.title
-  description: __intro.description
+  title: 'Créateurs d''expériences numériques'
+  description: 'L’identité de votre entreprise et de votre marque se transforme au fil du temps; votre site web devrait pouvoir faire de même. Chez Moabi Studio, nous avons pour mission de créer des plateformes web évolutives, capables de s’adapter à ces transformations.'
   feature:
     1:
-      title: __intro.feature.1.title
-      description: __intro.feature.1.description
+      title: 'Analyse et stratégie'
+      description: 'Évaluation des besoins afin de proposer une stratégie numérique adaptée, en synergie avec vos objectifs'
     2:
-      title: __intro.feature.2.title
-      description: __intro.feature.2.description
+      title: 'Design créatif'
+      description: 'Conception d''une identité graphique en mettant en valeur votre savoir faire, vos produits et vos contenus'
     3:
-      title: __intro.feature.3.title
-      description: __intro.feature.3.description
+      title: Développement
+      description: 'Clean code et optimisation de l’expérience utilisateur afin de stimuler l’intérêt du public votre offre'
     4:
-      title: __intro.feature.4.title
-      description: __intro.feature.4.description
-  talk_more: __intro.talk_more
-  get_quote: __intro.get_quote
+      title: 'Marketing numérique'
+      description: 'Déploiement d''initiatives numériques pour assurer la visibilité de votre entreprise et de votre marque en ligne'
+  talk_more: 'Un projet ?'
+  get_quote: 'Parlez-nous !'
   what_we_do:
-    title: __intro.what_we_do.title
-    description: __intro.what_we_do.description
-  learn_more: __intro.learn_more
+    title: 'Ce que nous faisons'
+    description: 'Nous créons des expériences numériques complètes. Nous travaillons de pair avec nos collaborateurs et les accompagnons tout au long du processus de mise en ligne. Résultat : des expériences web cohérentes et efficaces, prenant en compte le contexte spécifique de chacun.'
+  learn_more: 'En savoir plus'
 process:
-  subtitle: __process.subtitle
-  title: __process.title
+  subtitle: 'Notre méthode'
+  title: 'Notre méthode'
   step:
     1:
-      title: __process.step.1.title
-      description: __process.step.1.description
+      title: Idées
+      description: 'Rencontre entre vos idées et les nôtres. Vous connaissez votre marché et vos objectifs. Nous connaissons les moyens pour  les atteindre.'
     2:
-      title: __process.step.2.title
-      description: __process.step.2.description
+      title: Stratégie
+      description: 'Prioriser les besoins pour livrer ce qui a le plus de valeur le plus rapidement possible.'
     3:
-      title: __process.step.3.title
-      description: __process.step.3.description
+      title: Développement
+      description: 'Construction étape par étape de votre projet, avec un recueil régulier des vos commentaires pour le faire évoluer.'
     4:
-      title: __process.step.4.title
-      description: __process.step.4.description
+      title: Livraison
+      description: 'Non pas la fin du projet numérique, mais bien l’occasion de le garder vivant, de le faire évoluer et d’assurer sa maintenance.'
 hero:
-  title: __hero.title
+  title: 'Design, Développement, Marketing'
