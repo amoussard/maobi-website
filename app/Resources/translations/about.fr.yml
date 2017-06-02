@@ -13,26 +13,23 @@ intro:
 vision:
   title: __vision.title
   description: __vision.description
-  element:
-    1:
-      title: __vision.element.1.title
-    2:
-      title: __vision.element.2.title
-    3:
-      title: __vision.element.3.title
-    4:
-      title: __vision.element.4.title
-    5:
-      title: __vision.element.5.title
-    6:
-      title: __vision.element.6.title
-    7:
-      title: __vision.element.7.title
-    8:
-      title: __vision.element.8.title
 mission:
   title: __mission.title
   description: __mission.description
+values:
+  title: __values.title
+  first:
+    title: __values.first.title
+    title: __values.first.text
+  second:
+    title: __values.second.title
+    title: __values.second.text
+  third:
+    title: __values.third.title
+    title: __values.third.text
+  fourth:
+    title: __values.fourth.title
+    title: __values.fourth.text
 team:
   axel:
     position: __team.axel.position

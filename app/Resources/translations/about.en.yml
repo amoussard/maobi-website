@@ -13,26 +13,23 @@ intro:
 vision:
   title: 'Our Vision'
   description: 'Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.'
-  element:
-    1:
-      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
-    2:
-      title: 'Aliquam tincidunt mauris eu risus.'
-    3:
-      title: 'Vestibulum auctor dapibus neque.'
-    4:
-      title: 'Nunc dignissim risus id metus.'
-    5:
-      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
-    6:
-      title: 'Aliquam tincidunt mauris eu risus.'
-    7:
-      title: 'Vestibulum auctor dapibus neque.'
-    8:
-      title: 'Nunc dignissim risus id metus.'
 mission:
   title: 'Our Mission'
   description: "Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.\nSed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.\nMorbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque ."
+values:
+  title: __values.title
+  first:
+    title: __values.first.title
+    title: __values.first.text
+  second:
+    title: __values.second.title
+    title: __values.second.text
+  third:
+    title: __values.third.title
+    title: __values.third.text
+  fourth:
+    title: __values.fourth.title
+    title: __values.fourth.text
 team:
   axel:
     position: __team.axel.position
