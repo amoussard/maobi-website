@@ -20,16 +20,16 @@ values:
   title: __values.title
   first:
     title: __values.first.title
-    title: __values.first.text
+    text: __values.first.text
   second:
     title: __values.second.title
-    title: __values.second.text
+    text: __values.second.text
   third:
     title: __values.third.title
-    title: __values.third.text
+    text: __values.third.text
   fourth:
     title: __values.fourth.title
-    title: __values.fourth.text
+    text: __values.fourth.text
 team:
   axel:
     position: __team.axel.position
