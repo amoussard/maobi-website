@@ -65,105 +65,109 @@
             {{ 'mission.description'|trans|markdown }}
         </div>
         <div class="spacer30"></div>
-        <div class="divider light-gray"></div>
+    </div>
 
-        <div class="container padding-top-100">
+    <div class="light-grey-bg padding-default">
+        <div class="container">
             <div class="row">
-                <div class="team style3">
-                    <div class="container">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Image -->
-                            <div class="team-image left">
-                                <img class="img-responsive" src="{{ asset('images/axel.jpg') }}" alt="Axel Moussard">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Detail -->
-                            <div class="team-detail">
-                                <!-- team Detail -->
-                                <div class="team-name">
-                                    <a href="#">Axel Moussard</a>
-                                </div>
-                                <!-- team Designation -->
-                                <div class="team-designation">{{ 'team.axel.position'|trans }}</div>
-                                {{ 'team.axel.description'|trans|markdown }}
+                <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                    <!-- Team Style 2 -->
+                    <div class="team style2">
+                        <div class="team-image">
+                            <!-- Team Image -->
+                            <img class="img-responsive" src="{{ asset('images/axel.jpg') }}" alt="Axel Moussard">
+                            <div class="team-hover">
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-facebook" target="_blank" href="https://www.facebook.com/axel.moussard">
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-twitter" target="_blank" href="https://twitter.com/drassuom">
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/axel-moussard/">
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-gplus" target="_blank" href="https://plus.google.com/u/0/+AxelMoussard">
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                    </a>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://www.facebook.com/axel.moussard" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/drassuom"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.linkedin.com/in/axel-moussard/"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
+                        </div>
+                        <!-- Team Detail -->
+                        <div class="team-detail">
+                            <!-- Team Name -->
+                            <div class="team-name">
+                                <a href="#">Axel Moussard</a>
+                            </div>
+                            <!-- Team Designation -->
+                            <div class="team-designation">
+                                {{ 'team.axel.position'|trans }}
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Detail -->
-                            <div class="team-detail">
-                                <!-- team Name -->
-                                <div class="team-name">
-                                    <a href="#">Patrick Roux</a>
-                                </div>
-                                <!-- team Designation -->
-                                <div class="team-designation">{{ 'team.patrick.position'|trans }}</div>
-                                {{ 'team.patrick.description'|trans|markdown }}
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                    <!-- Team Style 2 -->
+                    <div class="team style2">
+                        <div class="team-image">
+                            <!-- Team Image -->
+                            <img class="img-responsive" src="{{ asset('images/patrick.jpg') }}" alt="Patrick Roux">
+                            <div class="team-hover">
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-twitter" target="_blank" href="https://twitter.com/AdopteUnRoux">
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/patrick-roux/">
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                    </a>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/AdopteUnRoux"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.linkedin.com/in/patrick-roux/"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="http://www.patrickroux.ca"><i class="fa fa-dribbble"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Image -->
-                            <div class="team-image right">
-                                <img class="img-responsive" src="{{ asset('images/patrick.jpg') }}" alt="Patrick Roux">
+                        <!-- Team Detail -->
+                        <div class="team-detail">
+                            <!-- Team Name -->
+                            <div class="team-name">
+                                <a href="#">Patrick Roux</a>
+                            </div>
+                            <!-- Team Designation -->
+                            <div class="team-designation">
+                                {{ 'team.patrick.position'|trans }}
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Image -->
-                            <div class="team-image left">
-                                <img class="img-responsive" src="{{ asset('images/karyann.jpg') }}" alt="Karyann Pilon">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- team Detail -->
-                            <div class="team-detail">
-                                <!-- team Detail -->
-                                <div class="team-name">
-                                    <a href="#">Karyann Pilon</a>
-                                </div>
-                                <!-- team Designation -->
-                                <div class="team-designation">{{ 'team.karyann.position'|trans }}</div>
-                                {{ 'team.karyann.description'|trans|markdown }}
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">
+                    <!-- Team Style 2 -->
+                    <div class="team style2">
+                        <div class="team-image">
+                            <!-- Team Image -->
+                            <img class="img-responsive" src="{{ asset('images/karyann.jpg') }}" alt="Karyann Pilon">
+                            <div class="team-hover">
                                 <!-- Social Icon -->
                                 <div class="social-icon-box">
-                                    <a class="social-icon si-colored si-linkedin" target="_blank" href="https://www.linkedin.com/in/karyann-pilon-63a871132/">
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                        <i aria-hidden="true" class="fa fa-linkedin"></i>
-                                    </a>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a target="_blank" href="https://www.linkedin.com/in/karyann-pilon-63a871132/"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
+                        </div>
+                        <!-- Team Detail -->
+                        <div class="team-detail">
+                            <!-- Team Name -->
+                            <div class="team-name">
+                                <a href="#">Karyann Pilon</a>
+                            </div>
+                            <!-- Team Designation -->
+                            <div class="team-designation">
+                                {{ 'team.karyann.position'|trans }}
                             </div>
                         </div>
                     </div>
@@ -172,7 +176,6 @@
         </div>
     </div>
 
-    <div class="spacer100"></div>
     <!-- call to Action -->
     {% include 'default/include/_contact-cta.html.twig' %}
 {% endblock %}

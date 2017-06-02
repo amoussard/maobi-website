@@ -20205,3 +20205,15 @@ input[type="checkbox"] + .lbl.gradient::before, input[type="radio"] + .lbl.gradi
 .button-larg {
   border: none;
 }
+
+h2, .h2 {
+  font-size: 50px;
+}
+
+.team.style2 .team-image {
+  border-radius: 0;
+}
+
+.team-hover {
+  border-radius: 0;
+}
