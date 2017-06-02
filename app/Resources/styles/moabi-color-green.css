@@ -552,3 +552,52 @@ h2, .h2 {
 .team-hover {
   border-radius: 0;
 }
+
+.value {
+  position: relative;
+  height: 14em;
+  padding: 0;
+}
+
+.value picture {
+  background-color: #39b54a;
+  width: 5em;
+  display: inline-block;
+  height: 5em;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 5em;
+  text-align: center;
+}
+
+.value picture i {
+  color: white;
+  font-size: 3em;
+  padding: 0.35em 0.2em;
+  line-height: 1em;
+}
+
+.value .thumb {
+  border: none;
+  width: 100%;
+}
+
+.value .caption {
+  position: absolute;
+  top: 5em;
+  padding: 1em 2em;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+}
+
+.value .caption h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}

@@ -33,26 +33,17 @@
             </div>
         </div>
         <div class="spacer30"></div>
-        <div class="divider light-gray"></div>
 
         <!--our vision-->
         <div class="container">
-            <h2>{{ 'vision.title'|trans }}</h2>
-            <p>{{ 'vision.description'|trans }}</p>
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <ul class="list-circle">
-                        {% for i in 1..4 %}
-                            <li>{{ ('vision.element.' ~ i ~ '.title')|trans }}</li>
-                        {% endfor %}
-                    </ul>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h4>{{ 'vision.title'|trans }}</h4>
+                    <p>{{ 'vision.description'|trans }}</p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <ul class="list-circle">
-                        {% for i in 5..8 %}
-                            <li>{{ ('vision.element.' ~ i ~ '.title')|trans }}</li>
-                        {% endfor %}
-                    </ul>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h4>{{ 'mission.title'|trans }}</h4>
+                    <p>{{ 'mission.description'|trans }}</p>
                 </div>
             </div>
         </div>
@@ -61,8 +52,57 @@
 
         <!--our mission-->
         <div class="container">
-            <h2>{{ 'mission.title'|trans }}</h2>
-            {{ 'mission.description'|trans|markdown }}
+            <h2>{{ 'values.title'|trans }}</h2>
+
+            <div class="spacer30"></div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-3 value">
+                    <div class="thumb">
+                        <picture>
+                            <i class="fa fa-rocket"></i>
+                        </picture>
+                        <div class="caption">
+                            <h3>{{ 'values.first.title'|trans }}</h3>
+                            <p>{{ 'values.first.text'|trans|nl2br }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 value">
+                    <div class="thumb">
+                        <picture>
+                            <i class="fa fa-flask"></i>
+                        </picture>
+                        <div class="caption">
+                            <h3>{{ 'values.second.title'|trans }}</h3>
+                            <p>{{ 'values.second.text'|trans|nl2br }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 value">
+                    <div class="thumb">
+                        <picture>
+                            <i class="fa fa-shield"></i>
+                        </picture>
+                        <div class="caption">
+                            <h3>{{ 'values.third.title'|trans }}</h3>
+                            <p>{{ 'values.third.text'|trans|nl2br }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 value">
+                    <div class="thumb">
+                        <picture>
+                            <i class="fa fa-line-chart"></i>
+                        </picture>
+                        <div class="caption">
+                            <h3>{{ 'values.fourth.title'|trans }}</h3>
+                            <p>{{ 'values.fourth.text'|trans|nl2br }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
         <div class="spacer30"></div>
     </div>
