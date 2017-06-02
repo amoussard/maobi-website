@@ -20263,8 +20263,9 @@ h2, .h2 {
 
 .value .caption h3 {
   text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: raleway;
 }
 
 .aboutus h4 {
