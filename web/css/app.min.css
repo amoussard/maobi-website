@@ -20210,6 +20210,17 @@ h2, .h2 {
   font-size: 50px;
 }
 
+@media (max-width: 767px) {
+  h2, .h2 {
+    font-size: 30px !important;
+    line-height: 30px;
+  }
+
+  .get-quote-box h3 {
+    padding-left: 75px;
+  }
+}
+
 .team.style2 .team-image {
   border-radius: 0;
 }
