@@ -617,3 +617,18 @@ h2, .h2 {
 .aboutus h4 {
   color: #39b54a;
 }
+
+
+@media (max-width: 767px) {
+  .our-process-box {
+    position: relative;
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  .our-process-box .image {
+    width: 77%;
+    position: absolute;
+    z-index: -1;
+    top: 30px;
+  }
+}
