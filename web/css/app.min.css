@@ -20291,9 +20291,13 @@ h2, .h2 {
   }
 
   .our-process-box .image {
-    width: 77%;
+    width: 50%;
     position: absolute;
     z-index: -1;
     top: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: block;
   }
 }
