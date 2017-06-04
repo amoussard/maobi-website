@@ -68,21 +68,23 @@
     </header>
 
     <div class="main-content">
-        <div class="transparent-header">
-            {% block hero %}
-                <!-- Banner Section -->
-                <div class="banner banner400" style="background-image: url({% block hero_image %}{{ asset('/images/hero.jpg') }}{% endblock %});">
-                    <div class="banner-overlay"></div>
-                    <div class="banner-inner">
-                        <div class="container">
-                            <h1>{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}</h1>
+        {% block override_body %}
+            <div class="transparent-header">
+                {% block hero %}
+                    <!-- Banner Section -->
+                    <div class="banner banner400" style="background-image: url({% block hero_image %}{{ asset('/images/hero.jpg') }}{% endblock %});">
+                        <div class="banner-overlay"></div>
+                        <div class="banner-inner">
+                            <div class="container">
+                                <h1>{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-            {% endblock %}
+                {% endblock %}
 
-            {% block body %}{% endblock %}
-        </div>
+                {% block body %}{% endblock %}
+            </div>
+        {% endblock %}
     </div>
 
     <footer class="footer-style-4">

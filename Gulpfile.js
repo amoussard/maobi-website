@@ -69,7 +69,8 @@ gulp.task('js', () => {
             'app/Resources/scripts/jrespond.js',
             'app/Resources/scripts/template-functions.js',
             // 'app/Resources/scripts/color-style.js',
-            'app/Resources/scripts/banner.js'
+            'app/Resources/scripts/banner.js',
+            'app/Resources/scripts/script.js'
         ])
         .pipe(concat('app.min.js'))
         // .pipe(uglify())

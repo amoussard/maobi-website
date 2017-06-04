@@ -18,3 +18,5 @@ cta:
 lang_switch:
   en: EN
   fr: FR
+error:
+  message: __error.message
