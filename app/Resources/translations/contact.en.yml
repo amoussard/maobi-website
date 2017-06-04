@@ -13,3 +13,5 @@ form:
     email: name@domain.com
     subject: 'I have a project !'
     message: 'Hey! Have you heard about my awesome project?'
+  message:
+    success: '__form.message.success'

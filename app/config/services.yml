@@ -12,7 +12,6 @@ services:
             - '@request_stack'
             - '%emails.general%'
             - '%emails.admin%'
-            - '@translator'
 
     app.manager.locale_manager:
         class: AppBundle\Manager\LocaleManager

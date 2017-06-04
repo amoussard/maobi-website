@@ -60,11 +60,16 @@ class DefaultController extends Controller
         if ($form->isValid()) {
             $data = $form->getData();
 
-            $this->get('app.manager.emails')->sendContactEmail($data);
+            $sent = $this->get('app.manager.emails')->sendContactEmail($data);
 
-            $this->addFlash('contact_success', 'Thank you for contacting us!');
+            if ($sent) {
+                $this->addFlash(
+                    'contact_success',
+                    $this->get('translator')->trans('form.message.success', [], 'contact')
+                );
 
-            return $this->redirectToRoute('contact');
+                return $this->redirectToRoute('contact');
+            }
         }
 
         return $this->render('default/contact.html.twig', [

@@ -2,10 +2,8 @@
 
 namespace AppBundle\Manager;
 
-use AppBundle\Entity\Marketing\Contact;
 use Symfony\Bridge\Twig\TwigEngine;
 use Symfony\Component\HttpFoundation\RequestStack;
-use Symfony\Component\Translation\TranslatorInterface;
 
 class EmailManager
 {
@@ -29,20 +27,15 @@ class EmailManager
      * @var string
      */
     protected $adminEmailAddress;
-    /**
-     * @var TranslatorInterface
-     */
-    protected $translator;
 
     public function __construct(\Swift_Mailer $mailer, TwigEngine $twigEngine, RequestStack $requestStack,
-                                string $generalEmailAddress, string $adminEmailAddress, TranslatorInterface $translator)
+                                string $generalEmailAddress, string $adminEmailAddress)
     {
         $this->mailer = $mailer;
         $this->twigEngine = $twigEngine;
         $this->requestStack = $requestStack;
         $this->generalEmailAddress = $generalEmailAddress;
         $this->adminEmailAddress = $adminEmailAddress;
-        $this->translator = $translator;
     }
 
     public function sendDebugEmail(array $debugData)
@@ -63,7 +56,7 @@ class EmailManager
     public function sendContactEmail(array $contactData)
     {
         $message = $this->createToCompanyMessage()
-            ->setSubject('Message from: ' . $contactData['firstName'] . ' ' . $contactData['lastName']);
+            ->setSubject('Message from: ' . $contactData['name']);
 
         $this->render(
             $message,

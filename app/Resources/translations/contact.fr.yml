@@ -13,3 +13,5 @@ form:
     email: nom@domaine.com
     subject: 'J''ai un projet !'
     message: 'Hey ! As-tu entendu parler de mon super projet ?'
+  message:
+    success: 'Merci de nous avoir contacter. Nous vous reviendrons sous peu.'

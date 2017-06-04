@@ -18,7 +18,7 @@
     <!-- Contact Page With Image Background -->
     <div class="contact padding-default">
         <div class="container">
-            {% for flash_message in app.session.flashBag.get('notice') %}
+            {% for flash_message in app.session.flashBag.get('contact_success') %}
                 <div class="alert alert-success" role="alert">
                     {{ flash_message }}
                 </div>

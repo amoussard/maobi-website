@@ -59,12 +59,14 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
 
-accord_mandrill_swift_mailer:
-    api_key: "%mailer_password%"
-
 # Swiftmailer Configuration
 swiftmailer:
-    transport: accord_mandrill
+    transport: smtp
+    host: email-smtp.us-east-1.amazonaws.com
+    port: 587
+    encryption: tls
+    username: "%mailer_user%"
+    password: "%mailer_password%"
 
 jms_i18n_routing:
     default_locale: fr
