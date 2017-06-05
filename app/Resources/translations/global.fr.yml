@@ -7,7 +7,7 @@ footer:
   visit_us: 'Nous rendre visite'
   address: '5866, rue De la Roche <br/> Montréal, Québec H2S 2C7'
   talk_with_us: 'Venez nous parler'
-  tel: '438 393 0144'
+  tel: '(438) 870 3798'
   email: hello@moabistudio.com
   follow_us: Suivez-nous
   copyright: 'Copyright © 2017. Moabi Studio.'
@@ -21,6 +21,6 @@ lang_switch:
 error:
   message: 'Ce n''est pas la page que vous recherchez !<br/><br/>Peut-être vouliez-vous :<br/> > Aller à la <a href="/">page d''accueil</a> ?<br/> > <a href="/contact">Nous contacter</a> ?'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Moabi Studio : créateur d''expériences numérique'
+  description: 'Agence web globale : design, développement, marketing numérique'
+  keywords: 'design, developpement, marketing, numerique, digitale, agence'

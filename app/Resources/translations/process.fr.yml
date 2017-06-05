@@ -6,7 +6,7 @@ step:
     description: 'Période de découverte qui permet de mieux comprendre l’essence de votre projet et d’identifier les besoins des utilisateurs de vos produits ou services. Développement des idées initiales et recherche d’inspiration afin de proposer plusieurs plans d’action.'
   2:
     title: Stratégie
-    description: "Étape permettant de faire sens des possibilités identifiées dans la période d’analyse. À ce moment, il est nécessaire de faire un choix afin de se lancer dans une direction précise. Cette étape permet également d’établir les priorités quant aux éléments du projet numérique qui devront être développés en premier. Pour ce faire, nous utilisons le storymapping, une technique qui permet de définir les usages des utilisateurs cibles. Il est ainsi possible de déterminer la valeur des différentes fonctions qui sont développées afin de faire la distinction entre les fonctions essentielles et les fonctions dites de « valeur ajoutée\_». Nous pouvons ainsi déterminer quelles fonctions livrer en premier afin de créer de la valeur le plus rapidement possible."
+    description: 'Cette étape se penche de plus près sur les alternatives identifiées dans l’analyse. Il s’agit alors de choisir une direction précise. Cette étape organise les éléments du projet par ordre de priorité. Pour ce faire, nous utilisons le storymapping: une technique qui définit les usages des utilisateurs cibles. Ainsi, la valeur des différentes fonctions est clarifiée, facilitant la distinction entre les fonctions essentielles et les fonctions dites de « valeur ajoutée ». Savoir quelles fonctions livrer en premier permet, par conséquent, une valorisation maximale et rapide du produit final.'
   3:
     title: Développement
     description: 'Derrière tout projet numérique réussi se cache une équipe de développement qui lui est dédiée. Chez Moabi, la qualité visuelle, mais aussi la qualité des développements réalisés nous tiennent à coeur. Automatisation des processus, optimisation et bonnes pratiques des technologies permettent à notre équipe de réaliser le projet dont votre marque a besoin. Laissez nos experts vous accompagner et vous conseiller dans vos démarches.'
@@ -14,6 +14,6 @@ step:
     title: Livraison
     description: 'Le projet numérique est lancé. Plusieurs activités clés accompagnent le lancement. Des métriques sont récoltées sur la performance générale du projet afin de faire des modifications qui auront pour effet d’optimiser l’expérience utilisateur. Il est également nécessaire de garder le projet vivant en l’alimentant avec du contenu et en assurant sa visibilité en ligne. Plusieurs moyens peuvent être utilisés : marketing web, gestion de réseaux sociaux, création de contenus, etc. La livraison, ce n''est pas la fin du projet : c''est l''occasion de bonifier son offre à l''aide d''observations concrètes.'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Notre méthode | Moabi Studio'
+  description: 'Une méthode efficace, adaptée au numérique, pour créer de la valeur en continue.'
+  keywords: 'valeur, continue, méthode, analyse, développement, stratégie, livraison'

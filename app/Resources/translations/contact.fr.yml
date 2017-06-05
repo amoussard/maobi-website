@@ -16,6 +16,6 @@ form:
   message:
     success: 'Merci de nous avoir contacter. Nous vous reviendrons sous peu.'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Contactez-nous | Moabi Studio'
+  description: 'Un projet numérique ? Venez nous rencontrer !'
+  keywords: contact

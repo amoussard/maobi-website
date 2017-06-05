@@ -2,7 +2,7 @@ hero:
   title: 'À propos'
 intro:
   title: 'À propos'
-  description: "Les usages et les technologies émergeant du web évoluent à grande vitesse. Le web est aujourd’hui un médium permettant de développer des expériences numériques vastes et variées, bien au delà d’un site web au sens traditionnel du terme. \n\nDans cette optique, nous souhaitons explorer les possibilités offertes par le web avec nos collaborateurs. En combinant notre expertise à vos idées et en effectuant un suivi rigoureux, nous aspirons à créer des expériences numériques complètes et originales."
+  description: "Les usages et les technologies émergeant du web évoluent à grande vitesse. Le web est aujourd’hui un médium permettant de développer des expériences numériques vastes et variées, bien au delà d’un site web au sens traditionnel du terme. \n\nDans cette optique, nous souhaitons explorer les possibilités offertes par le web avec nos collaborateurs. En combinant notre expertise à vos idées et en effectuant un suivi rigoureux, nous aspirons à créer des expériences numériques percutantes et originales."
   part:
     1:
       title: 'Nous sommes créatifs'
@@ -41,6 +41,6 @@ team:
     position: 'Responsable marketing numérique'
     description: 'Karyann se livre à des activités de veille médiatique afin de rester à l’affût des tendances émergentes en matière de web. Elle se spécialise dans les stratégies de marketing numérique et dans la création de contenus.'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'À propos | Moabi Studio'
+  description: 'Créateurs d''expériences numériques complètes et originales.'
+  keywords: 'web, création, projet, créateur'
