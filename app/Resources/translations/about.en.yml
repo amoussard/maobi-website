@@ -57,3 +57,7 @@ team:
   karyann:
     position: __team.karyann.position
     description: 'She gravitates in the communication world and practices media monitoring activities to stay aware of emerging tendencies. She’s interested in online marketing strategies as well as the creation advertising and corporate events.'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

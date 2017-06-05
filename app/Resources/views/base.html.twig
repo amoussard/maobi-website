@@ -6,20 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Moabi Studio</title>
-    <meta name="description" content="Moabi Studio">
-    <meta name="keywords" content="">
-    <meta property="og:title" content="Moabi Studio">
-    <meta property="og:description" content="Moabi Studio">
+    <title>{% block title %}{{ 'meta.title'|trans }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ 'meta.description'|trans }}{% endblock %}">
+    <meta name="keywords" content="{% block keywords %}{{ 'meta.keywords'|trans }}{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{{ 'meta.title'|trans }}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{{ 'meta.description'|trans }}{% endblock %}">
     <meta property="og:site_name" content="Moabi Studio">
-    <meta property="og:url" content="http://www.moabistudio.com">
-    <meta property="og:image" content="http://www.moabistudio.com/logo.png">
-    <meta name="twitter:card" content="Moabi Studio">
-    <meta name="twitter:site" content="http://www.moabistudio.com">
-    <meta name="twitter:creator" content="moabistudio">
-    <meta name="twitter:title" content="Moabi Studio">
-    <meta name="twitter:description" content="Moabi Studio">
-    <meta name="twitter:image" content="http://www.moabistudio.com/logo.png">
+    <meta property="og:url" content="{{ app.request.uri }}">
+    <meta property="og:image" content="{{ app.request.getSchemeAndHttpHost() ~ asset('/images/logo-dark.png') }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="moabistudio">
+    <meta name="twitter:title" content="{% block twitter_title %}{{ 'meta.title'|trans }}{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}{{ 'meta.description'|trans }}{% endblock %}">
+    <meta name="twitter:image" content="{{ app.request.getSchemeAndHttpHost() ~ asset('/images/logo-dark.png') }}">
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}">

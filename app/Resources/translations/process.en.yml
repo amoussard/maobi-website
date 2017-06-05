@@ -13,3 +13,7 @@ step:
   4:
     title: Deliver
     description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

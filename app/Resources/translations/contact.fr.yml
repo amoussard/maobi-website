@@ -15,3 +15,7 @@ form:
     message: 'Hey ! As-tu entendu parler de mon super projet ?'
   message:
     success: 'Merci de nous avoir contacter. Nous vous reviendrons sous peu.'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

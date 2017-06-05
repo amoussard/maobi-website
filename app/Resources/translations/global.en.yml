@@ -20,3 +20,7 @@ lang_switch:
   fr: FR
 error:
   message: __error.message
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

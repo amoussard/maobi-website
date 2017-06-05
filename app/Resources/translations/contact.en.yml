@@ -15,3 +15,7 @@ form:
     message: 'Hey! Have you heard about my awesome project?'
   message:
     success: __form.message.success
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

@@ -2,6 +2,14 @@
 
 {% trans_default_domain 'process' %}
 
+{% block title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block description %}{{ 'meta.description'|trans }}{% endblock %}
+{% block keywords %}{{ 'meta.keywords'|trans }}{% endblock %}
+{% block og_title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block og_description %}{{ 'meta.description'|trans }}{% endblock %}
+{% block twitter_title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block twitter_description %}{{ 'meta.description'|trans }}{% endblock %}
+
 {% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}
 
 {% block body %}

@@ -13,3 +13,7 @@ step:
   4:
     title: Livraison
     description: 'Le projet numérique est lancé. Plusieurs activités clés accompagnent le lancement. Des métriques sont récoltées sur la performance générale du projet afin de faire des modifications qui auront pour effet d’optimiser l’expérience utilisateur. Il est également nécessaire de garder le projet vivant en l’alimentant avec du contenu et en assurant sa visibilité en ligne. Plusieurs moyens peuvent être utilisés : marketing web, gestion de réseaux sociaux, création de contenus, etc. La livraison, ce n''est pas la fin du projet : c''est l''occasion de bonifier son offre à l''aide d''observations concrètes.'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

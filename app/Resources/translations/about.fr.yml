@@ -40,3 +40,7 @@ team:
   karyann:
     position: 'Responsable marketing numérique'
     description: 'Karyann se livre à des activités de veille médiatique afin de rester à l’affût des tendances émergentes en matière de web. Elle se spécialise dans les stratégies de marketing numérique et dans la création de contenus.'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords

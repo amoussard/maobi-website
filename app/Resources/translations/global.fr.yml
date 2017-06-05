@@ -20,3 +20,7 @@ lang_switch:
   fr: FR
 error:
   message: 'Ce n''est pas la page que vous recherchez !<br/><br/>Peut-être vouliez-vous :<br/> > Aller à la <a href="/">page d''accueil</a> ?<br/> > <a href="/contact">Nous contacter</a> ?'
+meta:
+  title: __meta.title
+  description: __meta.description
+  keywords: __meta.keywords
