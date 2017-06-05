@@ -14,4 +14,4 @@ form:
     subject: 'I have a project !'
     message: 'Hey! Have you heard about my awesome project?'
   message:
-    success: '__form.message.success'
+    success: __form.message.success
