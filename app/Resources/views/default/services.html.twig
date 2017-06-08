@@ -1,0 +1,178 @@
+{% extends 'base.html.twig' %}
+
+{% trans_default_domain 'services' %}
+
+{% block title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block description %}{{ 'meta.description'|trans }}{% endblock %}
+{% block keywords %}{{ 'meta.keywords'|trans }}{% endblock %}
+{% block og_title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block og_description %}{{ 'meta.description'|trans }}{% endblock %}
+{% block twitter_title %}{{ 'meta.title'|trans }}{% endblock %}
+{% block twitter_description %}{{ 'meta.description'|trans }}{% endblock %}
+
+{% block hero_title %}{{ 'hero.title'|trans }}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="{{ path('homepage') }}">{{ 'menu.home'|trans({}, 'global') }}</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li>{{ 'menu.services'|trans({}, 'global') }}</li>
+        </ul>
+    </div>
+
+    <div class="container padding-default">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 class="text-center">Our Services</h4>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, <br>impedit incidunt, laboriosam maxime molestias numquam odio officiis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-presentation">
+        <!-- Image Presentation Image -->
+        <div class="presentation-image" style="background-image: url({{ asset('/images/services.jpg') }});"></div>
+        <!-- Image Presentation Detail -->
+        <div class="presentation-detail">
+            <!-- Presentation Box -->
+            <div class="presentation-box">
+                <div class="feature style-two">
+                    <!-- feature icon -->
+                    <div class="feature-icon">
+                        <i class="fa fa-flask" aria-hidden="true"></i>
+                    </div>
+
+                    <!-- feature Description -->
+                    <div class="feature-desc">
+                        <!-- feature title -->
+                        <h6>Expérience numérique</h6>
+                        <!-- feature detail -->
+                        <div class="feature-detail">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Presentation Box -->
+            <div class="presentation-box">
+                <div class="feature style-two">
+                    <!-- feature icon -->
+                    <div class="feature-icon">
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </div>
+
+                    <!-- feature Description -->
+                    <div class="feature-desc">
+                        <!-- feature title -->
+                        <h6>Site internet</h6>
+                        <!-- feature detail -->
+                        <div class="feature-detail">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Presentation Box -->
+            <div class="presentation-box">
+                <div class="feature style-two">
+                    <!-- feature icon -->
+                    <div class="feature-icon">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+
+                    <!-- feature Description -->
+                    <div class="feature-desc">
+                        <!-- feature title -->
+                        <h6>Application mobile</h6>
+                        <!-- feature detail -->
+                        <div class="feature-detail">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Presentation Box -->
+            <div class="presentation-box">
+                <div class="feature style-two">
+                    <!-- feature icon -->
+                    <div class="feature-icon">
+                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    </div>
+
+                    <!-- feature Description -->
+                    <div class="feature-desc">
+                        <!-- feature title -->
+                        <h6>Webmarketing</h6>
+                        <!-- feature detail -->
+                        <div class="feature-detail">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container padding-default">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 class="text-center">Our Services</h4>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, <br>impedit incidunt, laboriosam maxime molestias numquam odio officiis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row padding-bottom-100">
+            <!-- carousal Logo -->
+            <div class="client-logo">
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/wordpress.png') }}" alt="Wordpress"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/shopify.png') }}" alt="Shopify"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/php.png') }}" alt="PHP"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/nodejs.png') }}" alt="NodeJS"></a>
+                </div>
+            </div>
+            <!-- carousal Logo -->
+            <div class="client-logo">
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/angularjs.png') }}" alt="AngularJS"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/cordova.png') }}" alt="Cordova"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/aws.png') }}" alt="AWS"></a>
+                </div>
+                <div class="client-logo-image">
+                    <a href="#"><img src="{{ asset('/images/docker.png') }}" alt="Docker"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer100"></div>
+
+    <div class="call-to-action style-three theme-gradient-bg">
+        <div class="container">
+            <div class="call-to-action-content">
+                <h4>ACME is a unique theme <span>Many Features</span> &amp; <span>Offers Everything</span></h4>
+                <p>Precision design, responsive ready, full shortcodes design, perfect portfolio, unique blog layout and many many options for you...</p>
+            </div>
+            <div class="call-to-action-btn">
+                <ul>
+                    <li><a href="#" class="button-medium button-white-border">CLICK HERE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
