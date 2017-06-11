@@ -20318,6 +20318,43 @@ h2, .h2 {
 }
 
 .client-logo-image p {
-  font-size: 0.5em;
   padding: 0;
+}
+
+.client-logo-image {
+  border-bottom: 1px solid #e0e0e0 ;
+  border-right: 1px solid #e0e0e0 ;
+  display: table-cell;
+  padding: 50px 30px;
+  vertical-align: middle;
+  width: 25%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .client-logo-image:nth-child(n + 5) {
+    border-bottom: none;
+  }
+
+  .client-logo-image:nth-child(4n) {
+    border-right: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .client-logo-image {
+    width: 50%;
+  }
+
+  .client-logo-image:nth-child(n + 7) {
+    border-bottom: none;
+  }
+
+  .client-logo-image:nth-child(2n) {
+    border-right: none;
+  }
+
+  .client-logo-image img {
+    width: auto;
+  }
 }
