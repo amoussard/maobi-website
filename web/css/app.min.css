@@ -20316,3 +20316,8 @@ h2, .h2 {
 .call-to-action.style-three p {
   color: white;
 }
+
+.client-logo-image p {
+  font-size: 0.5em;
+  padding: 0;
+}
