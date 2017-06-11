@@ -1,0 +1,28 @@
+hero:
+  title: 'Nos services'
+meta:
+  title: 'Nos services | Moabi Studio'
+  description: 'Une méthode efficace, adaptée au numérique, pour créer de la valeur en continue.'
+  keywords: 'valeur, continue, méthode, analyse, développement, stratégie, livraison'
+services:
+  title: 'Nos services'
+  description: 'Nous vous proposons uniquement les services dont vous avez réellement besoin.<br />Nos tarifs sont ainsi compétitifs, sans compromettre la qualité.'
+  0:
+    title: 'Environnements multimédias'
+    description: 'Susciter l’engagement en créant des expériences numériques qui créent un dialogue entre le public et la technologie'
+  1:
+    title: 'Développement web et mobile'
+    description: 'Avec la technologie la plus adaptée. Site vitrine, e-commerce, applications mobiles'
+  2:
+    title: 'Webmarketing'
+    description: 'Stratégie complète pour assurer la visibilité et maximiser les taux de conversion. Rédaction web, référencement naturel, gestion des réseaux sociaux'
+  3:
+    title: 'Suivi et support'
+    description: 'Maintenance et mises à jour de votre projet web'
+technos:
+  title: 'Nos expertises'
+  description: 'La maitrise de nos outils vous permettrons de donner vie à vos projets les plus audacieux.<br />Mettez-nous au défi, les challenges nous motivent !'
+cta:
+  title: 'Prêt à commencer votre projet ?'
+  description: 'Moabi vous conseille et vous guide sur le meilleur moyen pour réaliser votre projet.'
+  link: 'Écrivez-nous'

@@ -23,8 +23,8 @@
     <div class="container padding-default">
         <div class="row">
             <div class="col-lg-12">
-                <h4 class="text-center">Our Services</h4>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, <br>impedit incidunt, laboriosam maxime molestias numquam odio officiis.</p>
+                <h4 class="text-center">{{ 'services.title'|trans }}</h4>
+                <p class="text-center">{{ 'services.description'|trans|raw }}</p>
             </div>
         </div>
     </div>
@@ -34,93 +34,36 @@
         <div class="presentation-image" style="background-image: url({{ asset('/images/services.jpg') }});"></div>
         <!-- Image Presentation Detail -->
         <div class="presentation-detail">
-            <!-- Presentation Box -->
-            <div class="presentation-box">
-                <div class="feature style-two">
-                    <!-- feature icon -->
-                    <div class="feature-icon">
-                        <i class="fa fa-flask" aria-hidden="true"></i>
-                    </div>
+            {% set icons = ['flask', 'desktop', 'mobile', 'line-chart'] %}
+            {% for i in 0..3 %}
+                <!-- Presentation Box -->
+                <div class="presentation-box">
+                    <div class="feature style-two">
+                        <!-- feature icon -->
+                        <div class="feature-icon">
+                            <i class="fa fa-{{ icons[i] }}" aria-hidden="true"></i>
+                        </div>
 
-                    <!-- feature Description -->
-                    <div class="feature-desc">
-                        <!-- feature title -->
-                        <h6>Expérience numérique</h6>
-                        <!-- feature detail -->
-                        <div class="feature-detail">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
+                        <!-- feature Description -->
+                        <div class="feature-desc">
+                            <!-- feature title -->
+                            <h6>{{ ('services.' ~ i ~ '.title')|trans }}</h6>
+                            <!-- feature detail -->
+                            <div class="feature-detail">
+                                <p>{{ ('services.' ~ i ~ '.description')|trans }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Presentation Box -->
-            <div class="presentation-box">
-                <div class="feature style-two">
-                    <!-- feature icon -->
-                    <div class="feature-icon">
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                    </div>
-
-                    <!-- feature Description -->
-                    <div class="feature-desc">
-                        <!-- feature title -->
-                        <h6>Site internet</h6>
-                        <!-- feature detail -->
-                        <div class="feature-detail">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Presentation Box -->
-            <div class="presentation-box">
-                <div class="feature style-two">
-                    <!-- feature icon -->
-                    <div class="feature-icon">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                    </div>
-
-                    <!-- feature Description -->
-                    <div class="feature-desc">
-                        <!-- feature title -->
-                        <h6>Application mobile</h6>
-                        <!-- feature detail -->
-                        <div class="feature-detail">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Presentation Box -->
-            <div class="presentation-box">
-                <div class="feature style-two">
-                    <!-- feature icon -->
-                    <div class="feature-icon">
-                        <i class="fa fa-line-chart" aria-hidden="true"></i>
-                    </div>
-
-                    <!-- feature Description -->
-                    <div class="feature-desc">
-                        <!-- feature title -->
-                        <h6>Webmarketing</h6>
-                        <!-- feature detail -->
-                        <div class="feature-detail">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio urna, maxmus</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 
     <div class="container padding-default">
         <div class="row">
             <div class="col-lg-12">
-                <h4 class="text-center">Our Services</h4>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, <br>impedit incidunt, laboriosam maxime molestias numquam odio officiis.</p>
+                <h4 class="text-center">{{ 'technos.title'|trans }}</h4>
+                <p class="text-center">{{ 'technos.description'|trans|raw }}</p>
             </div>
         </div>
     </div>
@@ -165,12 +108,12 @@
     <div class="call-to-action style-three theme-gradient-bg">
         <div class="container">
             <div class="call-to-action-content">
-                <h4>ACME is a unique theme <span>Many Features</span> &amp; <span>Offers Everything</span></h4>
-                <p>Precision design, responsive ready, full shortcodes design, perfect portfolio, unique blog layout and many many options for you...</p>
+                <h4>{{ 'cta.title'|trans|raw }}</h4>
+                <p>{{ 'cta.description'|trans|raw }}</p>
             </div>
             <div class="call-to-action-btn">
                 <ul>
-                    <li><a href="#" class="button-medium button-white-border">CLICK HERE</a></li>
+                    <li><a href="{{ path('contact') }}" class="button-medium button-white-border">{{ 'cta.link'|trans }}</a></li>
                 </ul>
             </div>
         </div>

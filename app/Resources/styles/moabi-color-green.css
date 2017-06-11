@@ -646,3 +646,8 @@ h2, .h2 {
   color: #fff;
   text-decoration: underline;
 }
+
+.call-to-action.style-three h4,
+.call-to-action.style-three p {
+  color: white;
+}
