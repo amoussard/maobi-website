@@ -70,12 +70,12 @@ swiftmailer:
 
 jms_i18n_routing:
     default_locale: fr
-    locales: [fr]
+    locales: [fr, en]
     strategy: prefix_except_default
 
 lexik_translation:
     fallback_locale: [fr]
-    managed_locales: [fr]
+    managed_locales: [fr, en]
     exporter:
         use_yml_tree: true
     auto_cache_clean: true
