@@ -1,0 +1,28 @@
+hero:
+  title: 'Nos services'
+meta:
+  title: 'Nos services | Moabi Studio'
+  description: 'Création d''expériences numériques en tout genre'
+  keywords: 'développement, site, internet, application, mobile, numérique, php, nodejs, wordpress, shopify'
+services:
+  title: 'Nos services'
+  description: 'Grâce à une approche par livraisons successives et indépendantes, nous proposons à chaque étape de redéfinir ensemble<br/> la direction que va prendre votre produit, sur la base des retours de vos utilisateurs<br/>plutôt que des opinions et des estimations.'
+  0:
+    title: 'Environnements multimédias'
+    description: 'Susciter l’engagement à travers des expériences numériques qui créent un dialogue entre le public et la technologie'
+  1:
+    title: 'Développement web et mobile'
+    description: 'Avec la technologie la plus adaptée. Site vitrine, e-commerce, applications mobiles'
+  2:
+    title: Webmarketing
+    description: 'Stratégie complète pour assurer la visibilité et maximiser les taux de conversion. Rédaction web, référencement naturel, gestion des réseaux sociaux'
+  3:
+    title: 'Suivi et support'
+    description: 'Notre collaboration ne s''arrête pas à la livraison de votre projet. Nous proposons de maintenir et mettre à jour les produits créés ensemble'
+technos:
+  title: 'Nos expertises'
+  description: 'La maitrise de nos outils vous permettrons de donner vie à vos projets les plus audacieux.<br />Mettez-nous au défi, les challenges nous motivent !'
+cta:
+  title: 'Prêt à commencer votre projet ?'
+  description: 'Moabi vous conseille et vous guide sur le meilleur moyen pour réaliser votre projet.'
+  link: Écrivez-nous
