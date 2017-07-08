@@ -4,16 +4,16 @@ intro:
   feature:
     1:
       title: 'Strategy And Analysis'
-      description: 'We shall evaluate your needs in order to suggest a digital strategy adapted to them, in synergy with your objectives. magna.'
+      description: 'We shall evaluate your needs in order to suggest a digital strategy adapted to them, in synergy with your objectives.'
     2:
       title: 'Creative Design'
-      description: "We shall conceive your graphic identity while putting forward your expertise, your products and your contents.\nmagna."
+      description: 'We shall conceive your graphic identity while putting forward your expertise, your products and your contents.'
     3:
       title: Development
       description: 'Clean code and optimisation of user experience shall be paramount to stimulate the public’s interest as to what you may have to offer.'
     4:
       title: 'Digital marketing'
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+      description: 'Digital initiatives shall be taken in order to insure your company and your brand’s visibility online.'
   talk_more: 'Wanna talk more?'
   get_quote: 'Get a quote'
   what_we_do:
