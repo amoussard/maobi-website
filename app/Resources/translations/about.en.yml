@@ -2,45 +2,62 @@ hero:
   title: 'About us'
 intro:
   title: 'About us'
-  description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+  description: 'Technologies and applications thereof emerging from the web evolve at great speed. To this day, the web is a media enabling us to develop great and varied digital experiences that go well above and beyond a traditional website. With this in mind, we wish to explore every possibility offered by the web with our collaborators. Combining our expertise with your ideas and by engaging in rigorous follow-ups, we aspire to create impactful and original digital experiences.'
   part:
     1:
       title: 'We are creative thinker'
-      description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+      description: 'We love to try new ways to do things and push back the limits of what is possible to do.  We approach the problems facing us with originality and ingeniosity.'
     2:
       title: 'We are crafter'
-      description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+      description: 'The web is our passion. Our projects are rigorously and minutely realised. We stack ideas and techniques for outstanding result'
 vision:
   title: 'Our Vision'
-  description: 'Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.'
+  description: 'We like to include every project’s contributors (clients, teams, partners…) in our creations, from ideation to delivery. People always have something of value to bring in. We also desire to create win-win situations: accomplishments need to be shared.'
+  element:
+    1:
+      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    2:
+      title: 'Aliquam tincidunt mauris eu risus.'
+    3:
+      title: 'Vestibulum auctor dapibus neque.'
+    4:
+      title: 'Nunc dignissim risus id metus.'
+    5:
+      title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    6:
+      title: 'Aliquam tincidunt mauris eu risus.'
+    7:
+      title: 'Vestibulum auctor dapibus neque.'
+    8:
+      title: 'Nunc dignissim risus id metus.'
 mission:
   title: 'Our Mission'
-  description: "Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede. and we have created it.\nSed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.\nMorbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque ."
+  description: 'To be accomplice to your project’s success by deploying adapted digital tools. We keep to our commitments and lack no reciprocity.'
 values:
-  title: __values.title
+  title: 'Our values'
   first:
-    title: __values.first.title
+    title: 'Deliver Value Continuously'
     text: __values.first.text
   second:
-    title: __values.second.title
+    title: 'Experiment and Learn Rapidly'
     text: __values.second.text
   third:
-    title: __values.third.title
+    title: 'Make safety at work a Prerequisite'
     text: __values.third.text
   fourth:
-    title: __values.fourth.title
+    title: 'Make People Awesome'
     text: __values.fourth.text
 team:
   axel:
-    position: __team.axel.position
+    position: 'Technical Director'
     description: 'Passionate by development, he is convinced that work’s quality of a team is all about innovation and rigor. Best ally of your development teams, he will highlight their strengths and work with their weaknesses.'
   patrick:
-    position: __team.patrick.position
+    position: 'Project Director'
     description: 'Patrick believes in the fact that we are our own limitation: people can do a lot more than they think, given the right tools, and that team cohesion, transparency and implication are some of these tools.'
   karyann:
-    position: __team.karyann.position
+    position: 'Digital Marketing Manager'
     description: 'She gravitates in the communication world and practices media monitoring activities to stay aware of emerging tendencies. She’s interested in online marketing strategies as well as the creation advertising and corporate events.'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'About us | Moabi Studio'
+  description: 'Creators of complete and original digital experiences'
+  keywords: 'web, creation, projet, creator'

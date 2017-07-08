@@ -6,7 +6,7 @@ menu:
   contact: Contact
 footer:
   visit_us: 'Visit us'
-  address: __footer.address
+  address: '5866, rue De la Roche <br/> Montréal, Québec H2S 2C7'
   talk_with_us: 'Talk with us'
   tel: '438 393 0144'
   email: hello@moabistudio.com
@@ -22,6 +22,6 @@ lang_switch:
 error:
   message: __error.message
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Moabi Studio : creator of digital experiences'
+  description: 'Global web agency : design, development, digital marketing'
+  keywords: 'design, development, marketing, digital, agency'

@@ -1,28 +1,28 @@
 hero:
-  title: 'Nos services'
+  title: 'Our services'
 meta:
-  title: 'Nos services | Moabi Studio'
-  description: 'Création d''expériences numériques en tout genre'
-  keywords: 'développement, site, internet, application, mobile, numérique, php, nodejs, wordpress, shopify'
+  title: 'Our services | Moabi Studio'
+  description: 'Creation of digital experiences'
+  keywords: 'development, site, internet, application, mobile, digital, php, nodejs, wordpress, shopify'
 services:
-  title: 'Nos services'
-  description: 'Grâce à une approche par livraisons successives et indépendantes, nous proposons à chaque étape de redéfinir ensemble<br/> la direction que va prendre votre produit, sur la base des retours de vos utilisateurs<br/>plutôt que des opinions et des estimations.'
+  title: 'Our services'
+  description: 'Thanks to our approach based on successive and independent deliveries, we offer, at each turn, to redefine that your product’s direction, based on users’ feedback rather than on opinion or estimation.'
   0:
-    title: 'Environnements multimédias'
-    description: 'Susciter l’engagement à travers des expériences numériques qui créent un dialogue entre le public et la technologie'
+    title: 'Multimedia environments'
+    description: 'Bringing commitment about the product through digital experiences creating a dialog between the public and technology.'
   1:
-    title: 'Développement web et mobile'
-    description: 'Avec la technologie la plus adaptée. Site vitrine, e-commerce, applications mobiles'
+    title: 'Web and mobile development'
+    description: 'With the most adapted technology. Storefront website, online business, mobile apps'
   2:
     title: Webmarketing
-    description: 'Stratégie complète pour assurer la visibilité et maximiser les taux de conversion. Rédaction web, référencement naturel, gestion des réseaux sociaux'
+    description: 'Full strategy to insure online visibility and to maximize conversion rates. Web redaction, natural referencing, social network managing.'
   3:
-    title: 'Suivi et support'
-    description: 'Notre collaboration ne s''arrête pas à la livraison de votre projet. Nous proposons de maintenir et mettre à jour les produits créés ensemble'
+    title: 'Follow-up and support'
+    description: 'Our collaboration doesn''t stop there. We propose to update and maintain created projects together.'
 technos:
-  title: 'Nos expertises'
-  description: 'La maitrise de nos outils vous permettrons de donner vie à vos projets les plus audacieux.<br />Mettez-nous au défi, les challenges nous motivent !'
+  title: 'Our expertise'
+  description: 'Our mastery of our tools shall enable you to give life to your most ambitious projects. Put us up to the test, challenges are quite stimulating!'
 cta:
-  title: 'Prêt à commencer votre projet ?'
-  description: 'Moabi vous conseille et vous guide sur le meilleur moyen pour réaliser votre projet.'
-  link: Écrivez-nous
+  title: 'Ready to start your project ?'
+  description: 'Moabi gives you advices and guides you on the best way to realize your project.'
+  link: 'Write to us'

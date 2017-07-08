@@ -1,24 +1,24 @@
 intro:
-  title: 'We are Moabi Studio and we believe in perfection'
-  description: 'We care for Perfection. We care for tiny little details. Lorem ipsum see this is dolor sit amet, consectetuer adipiscing elit. ou will see th Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non, semper suscipit pede.'
+  title: 'Creators of Digital Experience'
+  description: 'Your company and brand identity changes through time; your website should be able to do the same. Our mission, at Moabi Studio is to create evolutionary web platforms, able to adapt to those transformations.'
   feature:
     1:
       title: 'Strategy And Analysis'
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+      description: 'We shall evaluate your needs in order to suggest a digital strategy adapted to them, in synergy with your objectives. magna.'
     2:
       title: 'Creative Design'
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+      description: "We shall conceive your graphic identity while putting forward your expertise, your products and your contents.\nmagna."
     3:
       title: Development
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+      description: 'Clean code and optimisation of user experience shall be paramount to stimulate the public’s interest as to what you may have to offer.'
     4:
-      title: 'Marketing & Launch'
+      title: 'Digital marketing'
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
   talk_more: 'Wanna talk more?'
   get_quote: 'Get a quote'
   what_we_do:
     title: 'What we do'
-    description: 'Lorem ipsum see this is dolor sit amet, consectetuer addipiscing elit. ou will see the Donec odio. and we Quisque volutpat mattis eros. Nullam malesuada erat ut aturpis. and we spendisse urna nibh, holi viverra non semper good lemond suscipit. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Praesent dapibus, neque id cursus faucibus tortor neque.'
+    description: 'We create full digital experiences. We work in collaboration with our partners and accompany them all along the way to online launch. Result: a coherent and efficient web experience, taking into account each of our clients’ specific contextual needs.'
   learn_more: 'Learn more'
 process:
   subtitle: 'How we work'
@@ -26,15 +26,15 @@ process:
   step:
     1:
       title: Ideas
-      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+      description: 'A meeting place between your ideas and ours. You know your market as well as your objectives. We know the ways to meet them.'
     2:
       title: Strategy
-      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+      description: 'We shall prioritize your needs in order to deliver what has the most value, the fastest way possible.'
     3:
       title: Development
-      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+      description: 'Your project shall be built step by step with a regular collection of your comments to see it evolve and improve.'
     4:
       title: Deliver
-      description: 'Lorem ipsum dolor sit amet, muna consectetuer adipiscing elit. donec'
+      description: 'Delivery shall not signify the end of your digital project but an opportunity to keep it alive, to help it’s evolution and to insure proper maintenance.'
 hero:
-  title: 'Bold, Amazing & Extraordinary'
+  title: 'Design, Development, Marketing'

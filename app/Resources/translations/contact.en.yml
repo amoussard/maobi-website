@@ -16,6 +16,6 @@ form:
   message:
     success: __form.message.success
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Contact us | Moabi Studio'
+  description: 'A digital project? Come meet us !'
+  keywords: Contact

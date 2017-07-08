@@ -3,17 +3,17 @@ hero:
 step:
   1:
     title: Analysis
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+    description: 'A discovery period that enables us to better understand your project’s essence and to identify your users’ needs for your products or services. We shall develop on your initial ideas and look for inspiration to propose a few action plans.'
   2:
     title: Strategy
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+    description: "At this stage, we shall take a closer look at alternatives identified during the analysis period. By now, a coherent direction will be chosen. This stage organises the project’s elements by order of importance. To do so, we use storymapping: a technique defining targeted users’ online behaviour. Thus, the value of the website’s different functionalities is clarified, facilitating the distinction between essential functionalities and «\_added value\_» functionalities. Knowing which functionalities to deliver consequently enables a quick and maximal valorisation of the final product."
   3:
     title: Development
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+    description: 'Behind every successful digital project lies a development team that is dedicated to it. At Moabi, visual quality, but also development quality are wholeheartedly held as core objectives. System automation, optimisation and ethical practices regarding technologies allow our team to direct the project your brand needs. Let our experts walk you through and advise you in your proceedings.'
   4:
     title: Deliver
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo suspendisse potenti. Vitae luctus metus libero eu augue.'
+    description: 'The digital project is launched. A few key proceedings support the launch. Data is collected on the project’s general performance in order to design modifications, which will have optimizing effect on user experience. It is also necessary to keep the project alive by feeding new content into it and by insuring it’s online visibility. A few means can bring us to this end: web marketing, social network managing, content creation etc. Delivery isn’t the end of a project: it’s an occasion to enrich one’s offer, helped by concrete observations.'
 meta:
-  title: __meta.title
-  description: __meta.description
-  keywords: __meta.keywords
+  title: 'Our method | Moabi Studio'
+  description: 'An efficient method, adapted to digital world, to deliver value continiously'
+  keywords: 'value, continuously, method, analysis, development, strategy, delivery'
